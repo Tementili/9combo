@@ -16,12 +16,15 @@ PAIR = "eurjpy"
 PIP = 0.01
 SPREAD_PIPS = 1.0
 ATR_PERIOD = 14
-TP_ATR = 1.0
+TP_ATR = 1.3
 SL_ATR = 1.0 / 1.27
 MAX_HOLD_BARS = 96  # 96 x 15m bars = 1 full day
 
 N_BUCKETS = 20
 BUCKET_STEP = 0.05  # 5% steps
+
+# Tag used in output filenames so multiple TP runs don't overwrite each other
+RUN_TAG = f"tp{str(TP_ATR).replace('.', 'p')}"
 
 
 def _bucket_name(idx: int) -> str:
@@ -101,7 +104,7 @@ def load_data():
 
 def main():
     days, day_info, day_bars = load_data()
-    print(f"Processing {len(days)} days...")
+    print(f"Processing {len(days)} days...  TP_ATR={TP_ATR}  SL_ATR={round(SL_ATR,4)}")
 
     # bucket_idx -> list of ledger rows
     buckets: dict[int, list] = {i: [] for i in range(N_BUCKETS)}
@@ -194,7 +197,7 @@ def main():
             continue
 
         df = pd.DataFrame(rows)
-        csv_path = OUT_DIR / f"ledger_bucket_{name}.csv"
+        csv_path = OUT_DIR / f"ledger_bucket_{RUN_TAG}_{name}.csv"
         df.to_csv(csv_path, index=False)
         print(f"  bucket {name}: {len(rows)} trades  -> {csv_path.name}")
 
@@ -227,9 +230,10 @@ def main():
         "max_hold_bars": MAX_HOLD_BARS,
         "n_buckets": N_BUCKETS,
         "bucket_step_pct": 5,
+        "run_tag": RUN_TAG,
     }
 
-    json_path = OUT_DIR / "sweep_5pct_summary.json"
+    json_path = OUT_DIR / f"sweep_5pct_{RUN_TAG}_summary.json"
     json_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
 
     print(json.dumps(summary, indent=2))
