@@ -1,0 +1,21 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "rule": "entry only if open in [S1,PP] buy or [PP,R1] sell",
+  "tp_rule": "TP distance = 100% previous-day range",
+  "sl_rule": "SL distance = 70% previous-day range",
+  "no_day_end_close": true,
+  "trades": 3367,
+  "buy_trades": 1495,
+  "sell_trades": 1872,
+  "wins": 1402,
+  "losses": 1965,
+  "win_rate": 0.416394,
+  "total_pips": -2465.2,
+  "cal_ppd": -0.7322,
+  "avg_pips_per_trade": -0.7322,
+  "dataset_end_exits": 0
+}
