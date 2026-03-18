@@ -1,0 +1,84 @@
+{
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "effective_first_day": "2003-08-05",
+  "effective_last_day": "2015-12-31",
+  "trades_total": 3366,
+  "wins": 1618,
+  "losses": 1747,
+  "time_exits": 1,
+  "win_rate_excl_time": 0.480832,
+  "cal_ppd": -1.8644,
+  "avg_extreme_norm_from_pivot_all": 0.3669,
+  "avg_extreme_norm_from_pivot_wins": 0.2314,
+  "avg_adverse_norm_from_entry_all": 0.1841,
+  "avg_adverse_norm_from_entry_wins": 0.0508,
+  "winrate_nearest_50_bin": {
+    "norm_bin": "[0.2, 0.25)",
+    "trades": 624,
+    "wins": 309,
+    "win_rate": 0.4951923076923077,
+    "avg_pips": -0.3901175213675008,
+    "dist_to_50": 0.004807692307692291
+  },
+  "bin_table": [
+    {
+      "norm_bin": "[0.0, 0.05)",
+      "trades": 450,
+      "wins": 170,
+      "win_rate": 0.37777777777777777,
+      "avg_pips": -1.264296296296253,
+      "dist_to_50": 0.12222222222222223
+    },
+    {
+      "norm_bin": "[0.05, 0.1)",
+      "trades": 439,
+      "wins": 216,
+      "win_rate": 0.4920273348519362,
+      "avg_pips": -0.7900531511009288,
+      "dist_to_50": 0.007972665148063773
+    },
+    {
+      "norm_bin": "[0.1, 0.15)",
+      "trades": 479,
+      "wins": 235,
+      "win_rate": 0.4906054279749478,
+      "avg_pips": -0.7114126652749402,
+      "dist_to_50": 0.009394572025052172
+    },
+    {
+      "norm_bin": "[0.15, 0.2)",
+      "trades": 536,
+      "wins": 274,
+      "win_rate": 0.5111940298507462,
+      "avg_pips": -1.8813432835821247,
+      "dist_to_50": 0.011194029850746245
+    },
+    {
+      "norm_bin": "[0.2, 0.25)",
+      "trades": 624,
+      "wins": 309,
+      "win_rate": 0.4951923076923077,
+      "avg_pips": -0.3901175213675008,
+      "dist_to_50": 0.004807692307692291
+    },
+    {
+      "norm_bin": "[0.25, 0.3)",
+      "trades": 539,
+      "wins": 259,
+      "win_rate": 0.4805194805194805,
+      "avg_pips": -3.4850340136054294,
+      "dist_to_50": 0.019480519480519487
+    },
+    {
+      "norm_bin": "[0.3, 0.35)",
+      "trades": 265,
+      "wins": 141,
+      "win_rate": 0.5320754716981132,
+      "avg_pips": 0.9037735849056556,
+      "dist_to_50": 0.0320754716981132
+    }
+  ]
+}

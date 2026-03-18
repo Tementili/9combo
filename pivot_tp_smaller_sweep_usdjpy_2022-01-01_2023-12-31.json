@@ -1,0 +1,295 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "description": "Keep trailing/SL distance fixed per base_dist_mult, shrink TP via tp_shrink_factor.",
+  "results": [
+    {
+      "base_dist_mult": 0.65,
+      "tp_shrink_factor": 0.35,
+      "traded_days": 680,
+      "cal_ppd": 2.0641,
+      "buy_cal_ppd": 5.7016,
+      "sell_cal_ppd": -3.6375,
+      "total_pips": 1506.7679,
+      "exit_counts": {
+        "SL": 327,
+        "TP": 849,
+        "BOTH_SL": 184,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 1.0,
+      "tp_shrink_factor": 0.25,
+      "traded_days": 680,
+      "cal_ppd": 1.3082,
+      "buy_cal_ppd": 6.4373,
+      "sell_cal_ppd": -5.1291,
+      "total_pips": 954.9577,
+      "exit_counts": {
+        "SL": 249,
+        "TP": 1009,
+        "BOTH_SL": 101,
+        "TIME_EXIT": 1
+      }
+    },
+    {
+      "base_dist_mult": 0.65,
+      "tp_shrink_factor": 0.25,
+      "traded_days": 680,
+      "cal_ppd": 1.1951,
+      "buy_cal_ppd": 4.4965,
+      "sell_cal_ppd": -3.3015,
+      "total_pips": 872.4072,
+      "exit_counts": {
+        "SL": 234,
+        "TP": 952,
+        "BOTH_SL": 174,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 0.5,
+      "tp_shrink_factor": 0.35,
+      "traded_days": 680,
+      "cal_ppd": 1.009,
+      "buy_cal_ppd": 3.5957,
+      "sell_cal_ppd": -2.5867,
+      "total_pips": 736.5858,
+      "exit_counts": {
+        "SL": 311,
+        "TP": 779,
+        "BOTH_SL": 270,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 0.5,
+      "tp_shrink_factor": 0.25,
+      "traded_days": 680,
+      "cal_ppd": 0.884,
+      "buy_cal_ppd": 2.4096,
+      "sell_cal_ppd": -1.5256,
+      "total_pips": 645.3398,
+      "exit_counts": {
+        "SL": 212,
+        "TP": 873,
+        "BOTH_SL": 275,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 0.5,
+      "tp_shrink_factor": 0.5,
+      "traded_days": 680,
+      "cal_ppd": -0.4,
+      "buy_cal_ppd": 3.4922,
+      "sell_cal_ppd": -3.8922,
+      "total_pips": -292.0094,
+      "exit_counts": {
+        "SL": 474,
+        "TP": 625,
+        "BOTH_SL": 261,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 0.65,
+      "tp_shrink_factor": 0.5,
+      "traded_days": 680,
+      "cal_ppd": -1.6892,
+      "buy_cal_ppd": 5.0526,
+      "sell_cal_ppd": -6.7418,
+      "total_pips": -1233.0887,
+      "exit_counts": {
+        "SL": 508,
+        "TP": 671,
+        "BOTH_SL": 181,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 1.0,
+      "tp_shrink_factor": 0.35,
+      "traded_days": 680,
+      "cal_ppd": -2.8533,
+      "buy_cal_ppd": 6.1674,
+      "sell_cal_ppd": -9.0207,
+      "total_pips": -2082.9323,
+      "exit_counts": {
+        "SL": 381,
+        "TP": 874,
+        "BOTH_SL": 104,
+        "TIME_EXIT": 1
+      }
+    },
+    {
+      "base_dist_mult": 0.5,
+      "tp_shrink_factor": 0.65,
+      "traded_days": 680,
+      "cal_ppd": -3.1814,
+      "buy_cal_ppd": 2.9182,
+      "sell_cal_ppd": -6.0996,
+      "total_pips": -2322.4034,
+      "exit_counts": {
+        "SL": 637,
+        "TP": 482,
+        "BOTH_SL": 241,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 0.65,
+      "tp_shrink_factor": 0.65,
+      "traded_days": 680,
+      "cal_ppd": -3.9941,
+      "buy_cal_ppd": 4.4529,
+      "sell_cal_ppd": -8.447,
+      "total_pips": -2915.7273,
+      "exit_counts": {
+        "SL": 646,
+        "TP": 543,
+        "BOTH_SL": 171,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 0.65,
+      "tp_shrink_factor": 0.8,
+      "traded_days": 680,
+      "cal_ppd": -4.9141,
+      "buy_cal_ppd": 5.4068,
+      "sell_cal_ppd": -10.3208,
+      "total_pips": -3587.27,
+      "exit_counts": {
+        "SL": 757,
+        "TP": 442,
+        "BOTH_SL": 160,
+        "TIME_EXIT": 1
+      }
+    },
+    {
+      "base_dist_mult": 0.65,
+      "tp_shrink_factor": 1.0,
+      "traded_days": 680,
+      "cal_ppd": -5.6223,
+      "buy_cal_ppd": 5.9566,
+      "sell_cal_ppd": -11.5789,
+      "total_pips": -4104.2894,
+      "exit_counts": {
+        "SL": 860,
+        "TP": 344,
+        "BOTH_SL": 155,
+        "TIME_EXIT": 1
+      }
+    },
+    {
+      "base_dist_mult": 1.0,
+      "tp_shrink_factor": 0.65,
+      "traded_days": 680,
+      "cal_ppd": -5.6447,
+      "buy_cal_ppd": 7.3346,
+      "sell_cal_ppd": -12.9793,
+      "total_pips": -4120.6503,
+      "exit_counts": {
+        "SL": 646,
+        "TP": 612,
+        "BOTH_SL": 100,
+        "TIME_EXIT": 2
+      }
+    },
+    {
+      "base_dist_mult": 0.5,
+      "tp_shrink_factor": 0.8,
+      "traded_days": 680,
+      "cal_ppd": -5.8056,
+      "buy_cal_ppd": 1.9604,
+      "sell_cal_ppd": -7.766,
+      "total_pips": -4238.0643,
+      "exit_counts": {
+        "SL": 768,
+        "TP": 368,
+        "BOTH_SL": 224,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 1.0,
+      "tp_shrink_factor": 0.5,
+      "traded_days": 680,
+      "cal_ppd": -5.9274,
+      "buy_cal_ppd": 5.6724,
+      "sell_cal_ppd": -11.5997,
+      "total_pips": -4326.9841,
+      "exit_counts": {
+        "SL": 540,
+        "TP": 715,
+        "BOTH_SL": 104,
+        "TIME_EXIT": 1
+      }
+    },
+    {
+      "base_dist_mult": 1.0,
+      "tp_shrink_factor": 1.0,
+      "traded_days": 680,
+      "cal_ppd": -6.1145,
+      "buy_cal_ppd": 7.4577,
+      "sell_cal_ppd": -13.5722,
+      "total_pips": -4463.6061,
+      "exit_counts": {
+        "SL": 854,
+        "TP": 424,
+        "BOTH_SL": 80,
+        "TIME_EXIT": 2
+      }
+    },
+    {
+      "base_dist_mult": 0.5,
+      "tp_shrink_factor": 1.0,
+      "traded_days": 680,
+      "cal_ppd": -6.4528,
+      "buy_cal_ppd": 2.3471,
+      "sell_cal_ppd": -8.7999,
+      "total_pips": -4710.5583,
+      "exit_counts": {
+        "SL": 902,
+        "TP": 275,
+        "BOTH_SL": 183,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "base_dist_mult": 1.0,
+      "tp_shrink_factor": 0.8,
+      "traded_days": 680,
+      "cal_ppd": -7.9747,
+      "buy_cal_ppd": 5.9196,
+      "sell_cal_ppd": -13.8943,
+      "total_pips": -5821.515,
+      "exit_counts": {
+        "SL": 764,
+        "TP": 506,
+        "BOTH_SL": 88,
+        "TIME_EXIT": 2
+      }
+    }
+  ],
+  "best": {
+    "base_dist_mult": 0.65,
+    "tp_shrink_factor": 0.35,
+    "traded_days": 680,
+    "cal_ppd": 2.0641,
+    "buy_cal_ppd": 5.7016,
+    "sell_cal_ppd": -3.6375,
+    "total_pips": 1506.7679,
+    "exit_counts": {
+      "SL": 327,
+      "TP": 849,
+      "BOTH_SL": 184,
+      "TIME_EXIT": 0
+    }
+  }
+}

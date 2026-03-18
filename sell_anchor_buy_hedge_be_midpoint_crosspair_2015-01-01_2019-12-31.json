@@ -1,0 +1,80 @@
+[
+  {
+    "pair": "EURJPY",
+    "ref_mode": "midpoint",
+    "from": "2015-01-01",
+    "to": "2019-12-31",
+    "days": 1826,
+    "traded_days": 811,
+    "trades": 1595,
+    "total_pips": 6313.5,
+    "raw_pips_per_day": 3.4576,
+    "total_weighted_pips": 2140225.1468,
+    "weighted_pips_per_day": 1172.0839,
+    "weighted_pips_per_day_per_100_units": 11.7208,
+    "by_leg": [
+      {
+        "leg_tag": "BUY1",
+        "pips": -20.100000000000342,
+        "weighted_pips": 1316857.1468
+      },
+      {
+        "leg_tag": "SELL1",
+        "pips": 6333.6,
+        "weighted_pips": 823368.0
+      }
+    ]
+  },
+  {
+    "pair": "EURUSD",
+    "ref_mode": "midpoint",
+    "from": "2015-01-01",
+    "to": "2019-12-31",
+    "days": 1826,
+    "traded_days": 696,
+    "trades": 1382,
+    "total_pips": 298.4,
+    "raw_pips_per_day": 0.1634,
+    "total_weighted_pips": 1340333.8222,
+    "weighted_pips_per_day": 734.0273,
+    "weighted_pips_per_day_per_100_units": 7.3403,
+    "by_leg": [
+      {
+        "leg_tag": "BUY1",
+        "pips": -6000.0,
+        "weighted_pips": 521541.82219999994
+      },
+      {
+        "leg_tag": "SELL1",
+        "pips": 6298.400000000001,
+        "weighted_pips": 818792.0
+      }
+    ]
+  },
+  {
+    "pair": "USDJPY",
+    "ref_mode": "midpoint",
+    "from": "2015-01-01",
+    "to": "2019-12-31",
+    "days": 1826,
+    "traded_days": 762,
+    "trades": 1511,
+    "total_pips": 4373.2,
+    "raw_pips_per_day": 2.395,
+    "total_weighted_pips": 1469474.2926,
+    "weighted_pips_per_day": 804.7504,
+    "weighted_pips_per_day_per_100_units": 8.0475,
+    "by_leg": [
+      {
+        "leg_tag": "BUY1",
+        "pips": 1263.1,
+        "weighted_pips": 1065161.2926
+      },
+      {
+        "leg_tag": "SELL1",
+        "pips": 3110.1,
+        "weighted_pips": 404313.0
+      }
+    ]
+  }
+]

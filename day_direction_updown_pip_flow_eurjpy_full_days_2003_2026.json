@@ -1,0 +1,36 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-08-04",
+    "2026-03-06"
+  ],
+  "full_days_only": true,
+  "full_days_count": 7052,
+  "up_days_summary": {
+    "days": 3152,
+    "sum_up_pips": 788054.1,
+    "sum_down_pips": 618367.4,
+    "avg_up_pips_per_day": 250.0172,
+    "avg_down_pips_per_day": 196.1826,
+    "avg_net_pips_per_day": 53.8346,
+    "up_down_ratio": 1.274411
+  },
+  "down_days_summary": {
+    "days": 2879,
+    "sum_up_pips": 604452.5,
+    "sum_down_pips": 766953.0,
+    "avg_up_pips_per_day": 209.9522,
+    "avg_down_pips_per_day": 266.3956,
+    "avg_net_pips_per_day": -56.4434,
+    "up_down_ratio": 0.788122
+  },
+  "flat_days_summary": {
+    "days": 1021,
+    "sum_up_pips": 2169.1,
+    "sum_down_pips": 2169.1,
+    "avg_up_pips_per_day": 2.1245,
+    "avg_down_pips_per_day": 2.1245,
+    "avg_net_pips_per_day": 0.0,
+    "up_down_ratio": 1.0
+  }
+}

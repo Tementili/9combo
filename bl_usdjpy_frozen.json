@@ -1,0 +1,86 @@
+{
+  "pair": "usdjpy",
+  "runner_version": "v1.0.0-bl-step1",
+  "timestamp": "2026-03-18T00:32:08.637408+00:00",
+  "code_hash": "dd1fe9f66b1f9a1621f4",
+  "frozen_cfg": {
+    "window_h": 8,
+    "sl_mult": 2.5,
+    "sl_main_frac": 0.7,
+    "tp_mode": "TP_ATR_2.0",
+    "skip_frac": 0.4
+  },
+  "train": {
+    "cal_ppd": 4.6853,
+    "win_rate": 0.4881,
+    "avg_pips_per_trade": 5.9368,
+    "time_exit_rate": 0.1006,
+    "total_trades": 2018,
+    "n_cal_days": 2557,
+    "best_day_pips": 585.53,
+    "worst_day_pips": -516.57
+  },
+  "adjust": {
+    "cal_ppd": -2.7678,
+    "win_rate": 0.4689,
+    "avg_pips_per_trade": -3.5368,
+    "time_exit_rate": 0.1064,
+    "total_trades": 1429,
+    "n_cal_days": 1826,
+    "best_day_pips": 680.87,
+    "worst_day_pips": -554.41
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "n_configs": 864,
+      "winner_cfg": {
+        "window_h": 8,
+        "sl_mult": 2.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_2.0",
+        "skip_frac": 0.4
+      },
+      "train_ppd": 4.6853,
+      "adj_ppd": -2.7678,
+      "adj_delta": 996.2322
+    },
+    {
+      "round": 2,
+      "n_configs": 288,
+      "winner_cfg": {
+        "window_h": 8,
+        "sl_mult": 2.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_2.0",
+        "skip_frac": 0.4
+      },
+      "train_ppd": 4.6853,
+      "adj_ppd": -2.7678,
+      "adj_delta": 0.0
+    },
+    {
+      "round": 3,
+      "n_configs": 180,
+      "winner_cfg": {
+        "window_h": 8,
+        "sl_mult": 2.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_2.0",
+        "skip_frac": 0.4
+      },
+      "train_ppd": 4.6853,
+      "adj_ppd": -2.7678,
+      "adj_delta": 0.0
+    }
+  ],
+  "split": {
+    "train_start": "2010-01-01",
+    "train_end": "2016-12-31",
+    "adjust_start": "2017-01-01",
+    "adjust_end": "2021-12-31",
+    "oos_start": "2022-01-01",
+    "oos_end": "2026-03-06",
+    "max_hold_hours": 432
+  }
+}

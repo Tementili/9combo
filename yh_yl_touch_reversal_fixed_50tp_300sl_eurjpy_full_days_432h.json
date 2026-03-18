@@ -1,0 +1,25 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-08-05",
+    "2026-03-06"
+  ],
+  "rule": "SELL on YH touch, BUY on YL touch",
+  "tp_pips": 50,
+  "sl_pips": 300,
+  "max_hold_hours": 432,
+  "spread_pips": 1.0,
+  "days": 7051,
+  "buy_trades": 3459,
+  "sell_trades": 3701,
+  "buy_wins": 1922,
+  "buy_losses": 1537,
+  "sell_wins": 1813,
+  "sell_losses": 1888,
+  "buy_time_exits": 2396,
+  "sell_time_exits": 2620,
+  "buy_cal_ppd": -1.3195,
+  "sell_cal_ppd": -2.3124,
+  "cal_ppd": -3.6319,
+  "total_pips": -25608.4
+}

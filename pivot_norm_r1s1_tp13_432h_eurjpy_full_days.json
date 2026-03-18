@@ -1,0 +1,25 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-08-05",
+    "2026-03-06"
+  ],
+  "entry": "day open",
+  "direction_rule": "open<PP buy, open>PP sell",
+  "normalization": "buy unit=PP-S1 (100%), sell unit=R1-PP (100%)",
+  "tp_mult": 1.3,
+  "sl_mult": 1.0,
+  "max_hold_hours": 432,
+  "spread_pips": 1.0,
+  "days": 7051,
+  "buys": 2956,
+  "sells": 3430,
+  "skipped_equal_open_pp": 665,
+  "skipped_bad_unit": 334,
+  "wins": 2627,
+  "losses": 3392,
+  "time_exits": 33,
+  "win_rate_excl_time_exit": 0.436451,
+  "total_pips": -4029.9833,
+  "cal_ppd": -0.5715
+}

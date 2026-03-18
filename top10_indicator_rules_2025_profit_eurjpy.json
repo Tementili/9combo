@@ -1,0 +1,94 @@
+{
+  "year": 2025,
+  "pair": "EURJPY",
+  "rules_source": "top10_indicators_sell_bucket_results_0_35.csv",
+  "per_indicator": [
+    {
+      "indicator": "rsi2",
+      "trades": 61,
+      "win_rate": 0.639344262295082,
+      "total_pips": 14.869999999994775,
+      "avg_pips_per_trade": 0.24377049180319305,
+      "profit_factor": 1.0198771103556064
+    },
+    {
+      "indicator": "hl_range_pct",
+      "trades": 37,
+      "win_rate": 0.6486486486486487,
+      "total_pips": -15.34500000001583,
+      "avg_pips_per_trade": -0.41472972973015754,
+      "profit_factor": 0.9686161020155324
+    },
+    {
+      "indicator": "cci20",
+      "trades": 45,
+      "win_rate": 0.7111111111111111,
+      "total_pips": -42.79166666667436,
+      "avg_pips_per_trade": -0.9509259259260969,
+      "profit_factor": 0.9167949445029424
+    },
+    {
+      "indicator": "ema20_dist",
+      "trades": 36,
+      "win_rate": 0.5833333333333334,
+      "total_pips": -128.9733333333303,
+      "avg_pips_per_trade": -3.582592592592508,
+      "profit_factor": 0.7874789906735139
+    },
+    {
+      "indicator": "tr",
+      "trades": 40,
+      "win_rate": 0.6,
+      "total_pips": -147.73499999999956,
+      "avg_pips_per_trade": -3.693374999999989,
+      "profit_factor": 0.7193670633601473
+    },
+    {
+      "indicator": "sma20_dist",
+      "trades": 38,
+      "win_rate": 0.6578947368421053,
+      "total_pips": -159.56333333335,
+      "avg_pips_per_trade": -4.199035087719737,
+      "profit_factor": 0.7391889462184924
+    },
+    {
+      "indicator": "rsi14",
+      "trades": 33,
+      "win_rate": 0.5757575757575758,
+      "total_pips": -172.79166666667027,
+      "avg_pips_per_trade": -5.23611111111122,
+      "profit_factor": 0.6426909755130832
+    },
+    {
+      "indicator": "di_minus14",
+      "trades": 39,
+      "win_rate": 0.5384615384615384,
+      "total_pips": -199.1550000000202,
+      "avg_pips_per_trade": -5.10653846153898,
+      "profit_factor": 0.6332241638095047
+    },
+    {
+      "indicator": "roc10",
+      "trades": 53,
+      "win_rate": 0.5660377358490566,
+      "total_pips": -202.24666666668145,
+      "avg_pips_per_trade": -3.8159748427675746,
+      "profit_factor": 0.6810894908911063
+    },
+    {
+      "indicator": "keltner_pos",
+      "trades": 40,
+      "win_rate": 0.575,
+      "total_pips": -204.68666666666252,
+      "avg_pips_per_trade": -5.117166666666563,
+      "profit_factor": 0.6383755579897125
+    }
+  ],
+  "combined_union": {
+    "trades": 157,
+    "win_rate": 0.6496815286624203,
+    "total_pips": -146.39166666669678,
+    "avg_pips_per_trade": -0.9324309978770495,
+    "profit_factor": 0.9210695398606084
+  }
+}

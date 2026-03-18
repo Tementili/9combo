@@ -1,0 +1,4 @@
+be_mode,n_cal_days,main_n_trades,main_total_pips,main_cal_ppd,main_win_rate,main_ter,main_best_day,main_worst_day,addon_n_trades,addon_total_pips,addon_cal_ppd,addon_win_rate,addon_ter,sar_n_trades,sar_total_pips,sar_cal_ppd,sar_win_rate,sar_ter,total_pips,total_cal_ppd,be_tp_count,sl_count,tp_count,time_exit_count,split,pair,layer
+N/A,2557,6249,19776.38,7.7342,0.1967,0.0053,1004.04,-228.91,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,19776.38,7.7342,0,5017,1199,33,train,eurjpy,L1
+N/A,1826,3915,-3376.55,-1.8491,0.1957,0.0028,592.24,-138.15,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,-3376.55,-1.8491,0,3146,758,11,adjust,eurjpy,L1
+N/A,1526,2857,-6542.9,-4.2876,0.1922,0.0088,794.44,-186.39,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,-6542.9,-4.2876,0,2307,525,25,oos,eurjpy,L1

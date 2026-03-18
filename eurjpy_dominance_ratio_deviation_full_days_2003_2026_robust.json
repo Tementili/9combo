@@ -1,0 +1,36 @@
+{
+  "pair": "EURJPY",
+  "full_days": 7052,
+  "usable_days_opposite_ge_1pip": 6013,
+  "overall_median_ratio": 1.25299,
+  "overall_quantiles": {
+    "p10": 1.042155,
+    "p25": 1.108635,
+    "p50": 1.25299,
+    "p75": 1.486307,
+    "p90": 1.836094
+  },
+  "mean_ratio_capped_at_5": 1.423861,
+  "by_move_bucket_median": [
+    {
+      "bucket": "0-0.5ATR",
+      "median_ratio": 1.118785
+    },
+    {
+      "bucket": "0.5-1.0ATR",
+      "median_ratio": 1.302013
+    },
+    {
+      "bucket": "1.0-1.5ATR",
+      "median_ratio": 1.509395
+    },
+    {
+      "bucket": "1.5-2.0ATR",
+      "median_ratio": 1.693214
+    },
+    {
+      "bucket": "2.0+ATR",
+      "median_ratio": 1.892989
+    }
+  ]
+}

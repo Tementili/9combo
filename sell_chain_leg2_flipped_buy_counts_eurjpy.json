@@ -1,0 +1,20 @@
+{
+  "pair": "EURJPY",
+  "rule": "Leg1 SELL@YH TP=YL SL=YH+300; after Leg1 SL, flipped Leg2 BUY@YH+300 TP=YH+800 SL=YH",
+  "entry_fill": "real touch",
+  "exit_policy": "no forced close",
+  "leg1": {
+    "tp_hits": 2991,
+    "sl_hits": 716,
+    "still_open_at_dataset_end": 4
+  },
+  "leg2_flipped_buy": {
+    "started_after_leg1_sl": 716,
+    "tp_hits": 313,
+    "sl_hits": 399,
+    "still_open_at_dataset_end": 4,
+    "win_rate_closed_only": 0.439607,
+    "break_even_win_rate": 0.37625,
+    "expectancy_pips_per_closed_trade": 50.6854
+  }
+}

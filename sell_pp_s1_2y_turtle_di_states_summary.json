@@ -1,0 +1,168 @@
+{
+  "period": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "both_up": {
+    "mask": "both_up",
+    "n_trades": 76,
+    "total_pips": -982.86,
+    "avg_pips": -12.9324,
+    "median_pips": -52.242,
+    "std_pips": 70.3475,
+    "top10": [
+      {
+        "date": "2025-04-04",
+        "entry_px": 161.74,
+        "exit_px": 160.30405,
+        "net_pips": 142.5952,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2025-03-19",
+        "entry_px": 163.55067,
+        "exit_px": 162.25578,
+        "net_pips": 128.4889,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-05-16",
+        "entry_px": 168.42367,
+        "exit_px": 167.32748,
+        "net_pips": 108.6183,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-11-01",
+        "entry_px": 165.68133,
+        "exit_px": 164.66074,
+        "net_pips": 101.0595,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-11-04",
+        "entry_px": 165.669,
+        "exit_px": 164.77808,
+        "net_pips": 88.0918,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2025-06-13",
+        "entry_px": 166.11633,
+        "exit_px": 165.24897,
+        "net_pips": 85.7365,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-03-22",
+        "entry_px": 164.79333,
+        "exit_px": 163.92931,
+        "net_pips": 85.4026,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2025-10-17",
+        "entry_px": 175.85367,
+        "exit_px": 174.99294,
+        "net_pips": 85.0728,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-11-06",
+        "entry_px": 165.671,
+        "exit_px": 164.81605,
+        "net_pips": 84.4954,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2025-10-16",
+        "entry_px": 175.85767,
+        "exit_px": 175.00672,
+        "net_pips": 84.095,
+        "exit_reason": "TP"
+      }
+    ],
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\ledger_2y_both_up.csv"
+  },
+  "both_down": {
+    "mask": "both_down",
+    "n_trades": 38,
+    "total_pips": 1227.43,
+    "avg_pips": 32.3007,
+    "median_pips": 102.1107,
+    "std_pips": 110.526,
+    "top10": [
+      {
+        "date": "2024-08-22",
+        "entry_px": 162.09133,
+        "exit_px": 160.481,
+        "net_pips": 160.0335,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-08-21",
+        "entry_px": 162.082,
+        "exit_px": 160.47459,
+        "net_pips": 159.741,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-08-02",
+        "entry_px": 161.49267,
+        "exit_px": 159.89243,
+        "net_pips": 159.0238,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-08-05",
+        "entry_px": 159.09033,
+        "exit_px": 157.58911,
+        "net_pips": 149.1225,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2025-02-14",
+        "entry_px": 160.07567,
+        "exit_px": 158.60261,
+        "net_pips": 146.3052,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-09-05",
+        "entry_px": 159.46733,
+        "exit_px": 158.0647,
+        "net_pips": 139.2634,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2025-02-07",
+        "entry_px": 157.57567,
+        "exit_px": 156.22591,
+        "net_pips": 133.976,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-07-31",
+        "entry_px": 165.96633,
+        "exit_px": 164.63291,
+        "net_pips": 132.3424,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2025-02-05",
+        "entry_px": 159.907,
+        "exit_px": 158.60684,
+        "net_pips": 129.0159,
+        "exit_reason": "TP"
+      },
+      {
+        "date": "2024-09-10",
+        "entry_px": 158.069,
+        "exit_px": 156.78679,
+        "net_pips": 127.221,
+        "exit_reason": "TP"
+      }
+    ],
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\ledger_2y_both_down.csv"
+  }
+}

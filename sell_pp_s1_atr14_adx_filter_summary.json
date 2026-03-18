@@ -1,0 +1,22 @@
+{
+  "di_minus_greater": {
+    "mode": "di_minus_greater",
+    "n_trades": 1676,
+    "total_pips": 36950.08,
+    "cal_ppd": 4.4864,
+    "wins": 966,
+    "losses": 710,
+    "win_rate": 0.5764,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\sell_pp_s1_atr14_adx_di_minus_greater_ledger.csv"
+  },
+  "di_plus_greater": {
+    "mode": "di_plus_greater",
+    "n_trades": 1272,
+    "total_pips": 16217.73,
+    "cal_ppd": 1.9756,
+    "wins": 680,
+    "losses": 592,
+    "win_rate": 0.5346,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\sell_pp_s1_atr14_adx_di_plus_greater_ledger.csv"
+  }
+}

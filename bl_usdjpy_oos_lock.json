@@ -1,0 +1,20 @@
+{
+  "pair": "usdjpy",
+  "timestamp": "2026-03-18T00:32:08.710242+00:00",
+  "code_hash": "dd1fe9f66b1f9a1621f4",
+  "frozen_cfg": {
+    "window_h": 8,
+    "sl_mult": 2.5,
+    "sl_main_frac": 0.7,
+    "tp_mode": "TP_ATR_2.0",
+    "skip_frac": 0.4
+  },
+  "oos_cal_ppd": -6.5028,
+  "oos_win_rate": 0.4485,
+  "oos_avg_pips": -8.5251,
+  "oos_ter": 0.073,
+  "oos_trades": 1164,
+  "oos_best_day": 756.1,
+  "oos_worst_day": -657.23,
+  "oos_n_cal": 1526
+}

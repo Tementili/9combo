@@ -1,0 +1,284 @@
+{
+  "overall": {
+    "n": 8757,
+    "avg_pips": 11.1054,
+    "total_pips": 97249.7746,
+    "win_rate": 0.6127
+  },
+  "by_session": [
+    {
+      "session": 16,
+      "n": 2919,
+      "avg_pips": 18.5308,
+      "total_pips": 54091.2736,
+      "win_rate": 0.7002
+    },
+    {
+      "session": 8,
+      "n": 2919,
+      "avg_pips": 10.9898,
+      "total_pips": 32079.3134,
+      "win_rate": 0.6338
+    },
+    {
+      "session": 0,
+      "n": 2919,
+      "avg_pips": 3.7955,
+      "total_pips": 11079.1876,
+      "win_rate": 0.5039
+    }
+  ],
+  "by_atr_bucket": [
+    {
+      "atr_bucket": "Q4_high",
+      "n": 2187,
+      "avg_pips": 19.2641,
+      "total_pips": 42130.6396,
+      "win_rate": 0.6959
+    },
+    {
+      "atr_bucket": "Q3",
+      "n": 2190,
+      "avg_pips": 11.7139,
+      "total_pips": 25653.5366,
+      "win_rate": 0.6292
+    },
+    {
+      "atr_bucket": "Q2",
+      "n": 2190,
+      "avg_pips": 7.6774,
+      "total_pips": 16813.5711,
+      "win_rate": 0.5868
+    },
+    {
+      "atr_bucket": "Q1_low",
+      "n": 2190,
+      "avg_pips": 5.7772,
+      "total_pips": 12652.0272,
+      "win_rate": 0.5388
+    }
+  ],
+  "by_adx_bucket": [
+    {
+      "adx_bucket": "30+",
+      "n": 2337,
+      "avg_pips": 14.841,
+      "total_pips": 34683.507,
+      "win_rate": 0.6697
+    },
+    {
+      "adx_bucket": "25-30",
+      "n": 1491,
+      "avg_pips": 13.2493,
+      "total_pips": 19754.772,
+      "win_rate": 0.609
+    },
+    {
+      "adx_bucket": "20-25",
+      "n": 1899,
+      "avg_pips": 10.8309,
+      "total_pips": 20567.8331,
+      "win_rate": 0.6124
+    },
+    {
+      "adx_bucket": "15-20",
+      "n": 1956,
+      "avg_pips": 7.9219,
+      "total_pips": 15495.3152,
+      "win_rate": 0.5787
+    },
+    {
+      "adx_bucket": "<15",
+      "n": 1074,
+      "avg_pips": 6.2834,
+      "total_pips": 6748.3473,
+      "win_rate": 0.5559
+    }
+  ],
+  "by_di_bucket": [
+    {
+      "di_bucket": "15+",
+      "n": 2916,
+      "avg_pips": 13.9303,
+      "total_pips": 40620.653,
+      "win_rate": 0.654
+    },
+    {
+      "di_bucket": "10-15",
+      "n": 1731,
+      "avg_pips": 10.6167,
+      "total_pips": 18377.4706,
+      "win_rate": 0.6101
+    },
+    {
+      "di_bucket": "<5",
+      "n": 2058,
+      "avg_pips": 9.413,
+      "total_pips": 19371.9713,
+      "win_rate": 0.5943
+    },
+    {
+      "di_bucket": "5-10",
+      "n": 2052,
+      "avg_pips": 9.2006,
+      "total_pips": 18879.6797,
+      "win_rate": 0.5746
+    }
+  ],
+  "by_session_atr": [
+    {
+      "session": 16,
+      "atr_bucket": "Q4_high",
+      "n": 729,
+      "avg_pips": 29.6407,
+      "total_pips": 21608.0479,
+      "win_rate": 0.7627
+    },
+    {
+      "session": 8,
+      "atr_bucket": "Q4_high",
+      "n": 729,
+      "avg_pips": 19.5894,
+      "total_pips": 14280.7073,
+      "win_rate": 0.7092
+    },
+    {
+      "session": 16,
+      "atr_bucket": "Q3",
+      "n": 730,
+      "avg_pips": 19.1276,
+      "total_pips": 13963.1705,
+      "win_rate": 0.7068
+    },
+    {
+      "session": 16,
+      "atr_bucket": "Q2",
+      "n": 730,
+      "avg_pips": 13.5865,
+      "total_pips": 9918.1147,
+      "win_rate": 0.6658
+    },
+    {
+      "session": 8,
+      "atr_bucket": "Q3",
+      "n": 730,
+      "avg_pips": 11.8448,
+      "total_pips": 8646.67,
+      "win_rate": 0.663
+    },
+    {
+      "session": 16,
+      "atr_bucket": "Q1_low",
+      "n": 730,
+      "avg_pips": 11.7835,
+      "total_pips": 8601.9404,
+      "win_rate": 0.6658
+    },
+    {
+      "session": 0,
+      "atr_bucket": "Q4_high",
+      "n": 729,
+      "avg_pips": 8.5623,
+      "total_pips": 6241.8843,
+      "win_rate": 0.6159
+    },
+    {
+      "session": 8,
+      "atr_bucket": "Q2",
+      "n": 730,
+      "avg_pips": 7.1765,
+      "total_pips": 5238.8541,
+      "win_rate": 0.5973
+    },
+    {
+      "session": 8,
+      "atr_bucket": "Q1_low",
+      "n": 730,
+      "avg_pips": 5.3604,
+      "total_pips": 3913.082,
+      "win_rate": 0.5658
+    },
+    {
+      "session": 0,
+      "atr_bucket": "Q3",
+      "n": 730,
+      "avg_pips": 4.1694,
+      "total_pips": 3043.6961,
+      "win_rate": 0.5178
+    },
+    {
+      "session": 0,
+      "atr_bucket": "Q2",
+      "n": 730,
+      "avg_pips": 2.2693,
+      "total_pips": 1656.6023,
+      "win_rate": 0.4973
+    },
+    {
+      "session": 0,
+      "atr_bucket": "Q1_low",
+      "n": 730,
+      "avg_pips": 0.1877,
+      "total_pips": 137.0048,
+      "win_rate": 0.3849
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2016,
+      "n": 1098,
+      "avg_pips": 20.3416,
+      "total_pips": 22335.0986,
+      "win_rate": 0.6931
+    },
+    {
+      "year": 2015,
+      "n": 1095,
+      "avg_pips": 13.3072,
+      "total_pips": 14571.3872,
+      "win_rate": 0.6219
+    },
+    {
+      "year": 2017,
+      "n": 1086,
+      "avg_pips": 13.0125,
+      "total_pips": 14131.5908,
+      "win_rate": 0.6575
+    },
+    {
+      "year": 2020,
+      "n": 1098,
+      "avg_pips": 10.5601,
+      "total_pips": 11594.9363,
+      "win_rate": 0.5765
+    },
+    {
+      "year": 2014,
+      "n": 1095,
+      "avg_pips": 10.4578,
+      "total_pips": 11451.2522,
+      "win_rate": 0.6283
+    },
+    {
+      "year": 2018,
+      "n": 1095,
+      "avg_pips": 8.7568,
+      "total_pips": 9588.7024,
+      "win_rate": 0.6201
+    },
+    {
+      "year": 2021,
+      "n": 1095,
+      "avg_pips": 6.4259,
+      "total_pips": 7036.3657,
+      "win_rate": 0.579
+    },
+    {
+      "year": 2019,
+      "n": 1095,
+      "avg_pips": 5.973,
+      "total_pips": 6540.4414,
+      "win_rate": 0.5251
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pair": "USDJPY",
+  "ref_mode": "midpoint",
+  "from": "2015-01-01",
+  "to": "2019-12-31",
+  "days": 1826,
+  "traded_days": 762,
+  "trades": 1511,
+  "total_pips": 4373.2,
+  "raw_pips_per_day": 2.395,
+  "total_weighted_pips": 1469474.2926,
+  "weighted_pips_per_day": 804.7504,
+  "weighted_pips_per_day_per_100_units": 8.0475,
+  "by_leg": [
+    {
+      "leg_tag": "BUY1",
+      "pips": 1263.1,
+      "weighted_pips": 1065161.2926
+    },
+    {
+      "leg_tag": "SELL1",
+      "pips": 3110.1,
+      "weighted_pips": 404313.0
+    }
+  ]
+}

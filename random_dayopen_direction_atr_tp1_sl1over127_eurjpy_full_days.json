@@ -1,0 +1,112 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-08-18",
+    "2026-03-06"
+  ],
+  "rule": "random BUY/SELL at day open; TP=1.0*ATR(prev day); SL=(1/1.27)*ATR(prev day)",
+  "spread_pips": 1.0,
+  "simulations": 200,
+  "summary": {
+    "mean_cal_ppd": -0.7474,
+    "median_cal_ppd": -0.6816,
+    "p10_cal_ppd": -1.6411,
+    "p90_cal_ppd": 0.0888,
+    "min_cal_ppd": -3.1807,
+    "max_cal_ppd": 1.2432
+  },
+  "top5": [
+    {
+      "seed": 6,
+      "days": 7038,
+      "cal_ppd": 1.2431850765988424,
+      "total_pips": 8749.536569102653,
+      "wins": 1143,
+      "losses": 1558,
+      "time_exits": 4337
+    },
+    {
+      "seed": 129,
+      "days": 7038,
+      "cal_ppd": 1.129417363609297,
+      "total_pips": 7948.839405082233,
+      "wins": 1137,
+      "losses": 1561,
+      "time_exits": 4340
+    },
+    {
+      "seed": 77,
+      "days": 7038,
+      "cal_ppd": 0.734222524845064,
+      "total_pips": 5167.45812985956,
+      "wins": 1103,
+      "losses": 1588,
+      "time_exits": 4347
+    },
+    {
+      "seed": 21,
+      "days": 7038,
+      "cal_ppd": 0.7098770078099779,
+      "total_pips": 4996.114380966625,
+      "wins": 1145,
+      "losses": 1563,
+      "time_exits": 4330
+    },
+    {
+      "seed": 145,
+      "days": 7038,
+      "cal_ppd": 0.6899292559235669,
+      "total_pips": 4855.7221031900635,
+      "wins": 1106,
+      "losses": 1582,
+      "time_exits": 4350
+    }
+  ],
+  "bottom5": [
+    {
+      "seed": 114,
+      "days": 7038,
+      "cal_ppd": -3.1807397087503437,
+      "total_pips": -22386.04607018492,
+      "wins": 1003,
+      "losses": 1740,
+      "time_exits": 4295
+    },
+    {
+      "seed": 95,
+      "days": 7038,
+      "cal_ppd": -2.5330734454137067,
+      "total_pips": -17827.77090882167,
+      "wins": 1036,
+      "losses": 1747,
+      "time_exits": 4255
+    },
+    {
+      "seed": 49,
+      "days": 7038,
+      "cal_ppd": -2.5179973894750454,
+      "total_pips": -17721.66562712537,
+      "wins": 1031,
+      "losses": 1701,
+      "time_exits": 4306
+    },
+    {
+      "seed": 15,
+      "days": 7038,
+      "cal_ppd": -2.209774752433287,
+      "total_pips": -15552.394707625474,
+      "wins": 1020,
+      "losses": 1678,
+      "time_exits": 4340
+    },
+    {
+      "seed": 79,
+      "days": 7038,
+      "cal_ppd": -2.1007485657030625,
+      "total_pips": -14785.068405418155,
+      "wins": 1041,
+      "losses": 1677,
+      "time_exits": 4320
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "entry_zone_norm": [
+    0.225,
+    0.55
+  ],
+  "rule": "enter at next bar open when price is inside 22.5%-55% zone and has not crossed beyond 55% first",
+  "sl_norm": 0.55,
+  "tp_norm": 0.5097,
+  "no_day_end_close": true,
+  "days": 3939,
+  "entries": 2965,
+  "buys": 1332,
+  "sells": 1633,
+  "no_entry_days": 974,
+  "ambiguous_days": 26,
+  "blocked_under55_before_entry": 35,
+  "wins": 885,
+  "losses": 2080,
+  "dataset_end_exits": 0,
+  "win_rate": 0.298482,
+  "total_pips": -2745.7851,
+  "cal_ppd": -0.6971,
+  "avg_pips_per_trade": -0.9261
+}

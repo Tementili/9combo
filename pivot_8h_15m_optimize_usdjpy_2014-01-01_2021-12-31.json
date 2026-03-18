@@ -1,0 +1,209 @@
+{
+  "pair": "USDJPY",
+  "timeframe": "15m",
+  "mode": "8h_open",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "sl_grid": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "tp_grid": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+  ],
+  "best": {
+    "sl_mult": 0.1,
+    "tp_mult": 0.5,
+    "entries": 8757,
+    "cal_ppd": 33.2819,
+    "buy_cal_ppd": 17.2146,
+    "sell_cal_ppd": 16.0673,
+    "total_pips": 97249.7746,
+    "exit_counts": {
+      "SL": 14794,
+      "TP": 617,
+      "BOTH_SL": 2103,
+      "TIME_EXIT": 0
+    }
+  },
+  "top10": [
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.5,
+      "entries": 8757,
+      "cal_ppd": 33.2819,
+      "buy_cal_ppd": 17.2146,
+      "sell_cal_ppd": 16.0673,
+      "total_pips": 97249.7746,
+      "exit_counts": {
+        "SL": 14794,
+        "TP": 617,
+        "BOTH_SL": 2103,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.45,
+      "entries": 8757,
+      "cal_ppd": 32.6833,
+      "buy_cal_ppd": 16.8286,
+      "sell_cal_ppd": 15.8547,
+      "total_pips": 95500.4736,
+      "exit_counts": {
+        "SL": 14373,
+        "TP": 756,
+        "BOTH_SL": 2385,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.4,
+      "entries": 8757,
+      "cal_ppd": 31.9093,
+      "buy_cal_ppd": 16.417,
+      "sell_cal_ppd": 15.4923,
+      "total_pips": 93238.91,
+      "exit_counts": {
+        "SL": 13869,
+        "TP": 900,
+        "BOTH_SL": 2745,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.35,
+      "entries": 8757,
+      "cal_ppd": 31.0653,
+      "buy_cal_ppd": 15.9376,
+      "sell_cal_ppd": 15.1277,
+      "total_pips": 90772.8035,
+      "exit_counts": {
+        "SL": 13337,
+        "TP": 1073,
+        "BOTH_SL": 3104,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.3,
+      "entries": 8757,
+      "cal_ppd": 30.0029,
+      "buy_cal_ppd": 15.358,
+      "sell_cal_ppd": 14.6448,
+      "total_pips": 87668.3502,
+      "exit_counts": {
+        "SL": 12641,
+        "TP": 1267,
+        "BOTH_SL": 3606,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.25,
+      "entries": 8757,
+      "cal_ppd": 28.5923,
+      "buy_cal_ppd": 14.6755,
+      "sell_cal_ppd": 13.9168,
+      "total_pips": 83546.6261,
+      "exit_counts": {
+        "SL": 11918,
+        "TP": 1493,
+        "BOTH_SL": 4103,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.2,
+      "entries": 8757,
+      "cal_ppd": 27.0564,
+      "buy_cal_ppd": 13.8305,
+      "sell_cal_ppd": 13.2259,
+      "total_pips": 79058.8182,
+      "exit_counts": {
+        "SL": 11106,
+        "TP": 1819,
+        "BOTH_SL": 4589,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.15,
+      "entries": 8757,
+      "cal_ppd": 25.2338,
+      "buy_cal_ppd": 12.8712,
+      "sell_cal_ppd": 12.3625,
+      "total_pips": 73733.13,
+      "exit_counts": {
+        "SL": 10184,
+        "TP": 2196,
+        "BOTH_SL": 5134,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.1,
+      "entries": 8757,
+      "cal_ppd": 22.9715,
+      "buy_cal_ppd": 11.6552,
+      "sell_cal_ppd": 11.3163,
+      "total_pips": 67122.7296,
+      "exit_counts": {
+        "SL": 9097,
+        "TP": 2637,
+        "BOTH_SL": 5780,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.05,
+      "entries": 8757,
+      "cal_ppd": 20.422,
+      "buy_cal_ppd": 10.2386,
+      "sell_cal_ppd": 10.1834,
+      "total_pips": 59673.036,
+      "exit_counts": {
+        "SL": 8088,
+        "TP": 3097,
+        "BOTH_SL": 6329,
+        "TIME_EXIT": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "mode": "8h_open_tp_reentry_chain",
+  "sl_grid": [
+    0.08,
+    0.1,
+    0.12
+  ],
+  "tp_grid": [
+    0.45,
+    0.5,
+    0.55
+  ],
+  "best": {
+    "sl_mult": 0.08,
+    "tp_mult": 0.55,
+    "cal_ppd": 41.5185,
+    "buy_cal_ppd": 21.2976,
+    "sell_cal_ppd": 20.2209,
+    "total_pips": 121317.0278,
+    "initial_entries": 8757.0,
+    "reentry_pairs": 288.0,
+    "total_legs_closed": 18090.0
+  },
+  "top10": [
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.55,
+      "cal_ppd": 41.5185,
+      "buy_cal_ppd": 21.2976,
+      "sell_cal_ppd": 20.2209,
+      "total_pips": 121317.0278,
+      "initial_entries": 8757,
+      "reentry_pairs": 288,
+      "total_legs_closed": 18090
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.5,
+      "cal_ppd": 41.3657,
+      "buy_cal_ppd": 21.2207,
+      "sell_cal_ppd": 20.145,
+      "total_pips": 120870.65,
+      "initial_entries": 8757,
+      "reentry_pairs": 353,
+      "total_legs_closed": 18220
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.45,
+      "cal_ppd": 41.107,
+      "buy_cal_ppd": 21.1324,
+      "sell_cal_ppd": 19.9746,
+      "total_pips": 120114.6476,
+      "initial_entries": 8757,
+      "reentry_pairs": 469,
+      "total_legs_closed": 18452
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.55,
+      "cal_ppd": 35.1474,
+      "buy_cal_ppd": 18.4486,
+      "sell_cal_ppd": 16.6988,
+      "total_pips": 102700.5671,
+      "initial_entries": 8757,
+      "reentry_pairs": 569,
+      "total_legs_closed": 18652
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.5,
+      "cal_ppd": 34.8235,
+      "buy_cal_ppd": 18.2191,
+      "sell_cal_ppd": 16.6045,
+      "total_pips": 101754.3274,
+      "initial_entries": 8757,
+      "reentry_pairs": 692,
+      "total_legs_closed": 18898
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.45,
+      "cal_ppd": 34.2162,
+      "buy_cal_ppd": 18.0408,
+      "sell_cal_ppd": 16.1755,
+      "total_pips": 99979.772,
+      "initial_entries": 8757,
+      "reentry_pairs": 868,
+      "total_legs_closed": 19250
+    },
+    {
+      "sl_mult": 0.12,
+      "tp_mult": 0.55,
+      "cal_ppd": 29.1386,
+      "buy_cal_ppd": 15.9047,
+      "sell_cal_ppd": 13.2339,
+      "total_pips": 85142.9555,
+      "initial_entries": 8757,
+      "reentry_pairs": 951,
+      "total_legs_closed": 19416
+    },
+    {
+      "sl_mult": 0.12,
+      "tp_mult": 0.5,
+      "cal_ppd": 28.622,
+      "buy_cal_ppd": 15.6325,
+      "sell_cal_ppd": 12.9895,
+      "total_pips": 83633.4145,
+      "initial_entries": 8757,
+      "reentry_pairs": 1137,
+      "total_legs_closed": 19788
+    },
+    {
+      "sl_mult": 0.12,
+      "tp_mult": 0.45,
+      "cal_ppd": 27.7273,
+      "buy_cal_ppd": 15.3357,
+      "sell_cal_ppd": 12.3915,
+      "total_pips": 81019.0896,
+      "initial_entries": 8757,
+      "reentry_pairs": 1400,
+      "total_legs_closed": 20314
+    }
+  ]
+}

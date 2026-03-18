@@ -1,0 +1,970 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "mode": "8h_open",
+  "results": [
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.4,
+      "entries": 2175,
+      "cal_ppd": 29.182,
+      "buy_cal_ppd": 23.4544,
+      "sell_cal_ppd": 5.7276,
+      "total_pips": 21302.8523,
+      "exit_counts": {
+        "SL": 3202,
+        "TP": 379,
+        "BOTH_SL": 769,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.35,
+      "entries": 2175,
+      "cal_ppd": 27.3579,
+      "buy_cal_ppd": 22.0663,
+      "sell_cal_ppd": 5.2916,
+      "total_pips": 19971.2337,
+      "exit_counts": {
+        "SL": 3049,
+        "TP": 435,
+        "BOTH_SL": 866,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.3,
+      "entries": 2175,
+      "cal_ppd": 24.8581,
+      "buy_cal_ppd": 20.4035,
+      "sell_cal_ppd": 4.4546,
+      "total_pips": 18146.4024,
+      "exit_counts": {
+        "SL": 2848,
+        "TP": 498,
+        "BOTH_SL": 1004,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.25,
+      "entries": 2175,
+      "cal_ppd": 22.5714,
+      "buy_cal_ppd": 18.7781,
+      "sell_cal_ppd": 3.7934,
+      "total_pips": 16477.1254,
+      "exit_counts": {
+        "SL": 2633,
+        "TP": 606,
+        "BOTH_SL": 1111,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.2275,
+      "entries": 2175,
+      "cal_ppd": 21.4394,
+      "buy_cal_ppd": 17.9009,
+      "sell_cal_ppd": 3.5386,
+      "total_pips": 15650.7762,
+      "exit_counts": {
+        "SL": 2531,
+        "TP": 651,
+        "BOTH_SL": 1168,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.2,
+      "entries": 2175,
+      "cal_ppd": 19.7715,
+      "buy_cal_ppd": 16.5702,
+      "sell_cal_ppd": 3.2012,
+      "total_pips": 14433.1734,
+      "exit_counts": {
+        "SL": 2412,
+        "TP": 703,
+        "BOTH_SL": 1235,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.15,
+      "entries": 2175,
+      "cal_ppd": 16.3686,
+      "buy_cal_ppd": 14.0691,
+      "sell_cal_ppd": 2.2995,
+      "total_pips": 11949.0686,
+      "exit_counts": {
+        "SL": 2189,
+        "TP": 820,
+        "BOTH_SL": 1341,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.1,
+      "entries": 2175,
+      "cal_ppd": 12.243,
+      "buy_cal_ppd": 10.8776,
+      "sell_cal_ppd": 1.3654,
+      "total_pips": 8937.3815,
+      "exit_counts": {
+        "SL": 1956,
+        "TP": 960,
+        "BOTH_SL": 1434,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.2,
+      "tp_mult": 0.05,
+      "entries": 2175,
+      "cal_ppd": 7.5095,
+      "buy_cal_ppd": 7.4616,
+      "sell_cal_ppd": 0.0478,
+      "total_pips": 5481.9054,
+      "exit_counts": {
+        "SL": 1676,
+        "TP": 1144,
+        "BOTH_SL": 1530,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.4,
+      "entries": 2175,
+      "cal_ppd": -0.1244,
+      "buy_cal_ppd": 13.3887,
+      "sell_cal_ppd": -13.513,
+      "total_pips": -90.776,
+      "exit_counts": {
+        "SL": 2898,
+        "TP": 874,
+        "BOTH_SL": 578,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.35,
+      "entries": 2175,
+      "cal_ppd": -1.712,
+      "buy_cal_ppd": 11.7652,
+      "sell_cal_ppd": -13.4772,
+      "total_pips": -1249.788,
+      "exit_counts": {
+        "SL": 2688,
+        "TP": 1023,
+        "BOTH_SL": 639,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.3,
+      "entries": 2175,
+      "cal_ppd": -5.3424,
+      "buy_cal_ppd": 9.2953,
+      "sell_cal_ppd": -14.6378,
+      "total_pips": -3899.9776,
+      "exit_counts": {
+        "SL": 2502,
+        "TP": 1168,
+        "BOTH_SL": 680,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.25,
+      "entries": 2175,
+      "cal_ppd": -8.5297,
+      "buy_cal_ppd": 6.9464,
+      "sell_cal_ppd": -15.4761,
+      "total_pips": -6226.6827,
+      "exit_counts": {
+        "SL": 2295,
+        "TP": 1357,
+        "BOTH_SL": 698,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.2275,
+      "entries": 2175,
+      "cal_ppd": -9.8396,
+      "buy_cal_ppd": 5.7988,
+      "sell_cal_ppd": -15.6384,
+      "total_pips": -7182.9283,
+      "exit_counts": {
+        "SL": 2191,
+        "TP": 1440,
+        "BOTH_SL": 719,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.2,
+      "entries": 2175,
+      "cal_ppd": -13.0826,
+      "buy_cal_ppd": 3.3532,
+      "sell_cal_ppd": -16.4358,
+      "total_pips": -9550.3236,
+      "exit_counts": {
+        "SL": 2100,
+        "TP": 1531,
+        "BOTH_SL": 719,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.4,
+      "entries": 2175,
+      "cal_ppd": -14.6594,
+      "buy_cal_ppd": 11.4997,
+      "sell_cal_ppd": -26.1591,
+      "total_pips": -10701.3732,
+      "exit_counts": {
+        "SL": 2559,
+        "TP": 1339,
+        "BOTH_SL": 452,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.35,
+      "entries": 2175,
+      "cal_ppd": -15.0099,
+      "buy_cal_ppd": 9.496,
+      "sell_cal_ppd": -24.5059,
+      "total_pips": -10957.2351,
+      "exit_counts": {
+        "SL": 2358,
+        "TP": 1531,
+        "BOTH_SL": 461,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.15,
+      "entries": 2175,
+      "cal_ppd": -19.4156,
+      "buy_cal_ppd": -1.4944,
+      "sell_cal_ppd": -17.9212,
+      "total_pips": -14173.4028,
+      "exit_counts": {
+        "SL": 1905,
+        "TP": 1695,
+        "BOTH_SL": 750,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.3,
+      "entries": 2175,
+      "cal_ppd": -19.67,
+      "buy_cal_ppd": 6.3067,
+      "sell_cal_ppd": -25.9767,
+      "total_pips": -14359.1008,
+      "exit_counts": {
+        "SL": 2203,
+        "TP": 1681,
+        "BOTH_SL": 466,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.4,
+      "entries": 2175,
+      "cal_ppd": -19.8252,
+      "buy_cal_ppd": 13.8722,
+      "sell_cal_ppd": -33.6974,
+      "total_pips": -14472.412,
+      "exit_counts": {
+        "SL": 2267,
+        "TP": 1743,
+        "BOTH_SL": 340,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.35,
+      "entries": 2175,
+      "cal_ppd": -20.5809,
+      "buy_cal_ppd": 11.9287,
+      "sell_cal_ppd": -32.5096,
+      "total_pips": -15024.0309,
+      "exit_counts": {
+        "SL": 2087,
+        "TP": 1949,
+        "BOTH_SL": 314,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.25,
+      "entries": 2175,
+      "cal_ppd": -24.0632,
+      "buy_cal_ppd": 3.388,
+      "sell_cal_ppd": -27.4512,
+      "total_pips": -17566.1032,
+      "exit_counts": {
+        "SL": 2009,
+        "TP": 1871,
+        "BOTH_SL": 470,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.2275,
+      "entries": 2175,
+      "cal_ppd": -25.8043,
+      "buy_cal_ppd": 1.997,
+      "sell_cal_ppd": -27.8013,
+      "total_pips": -18837.1158,
+      "exit_counts": {
+        "SL": 1916,
+        "TP": 1962,
+        "BOTH_SL": 472,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.1,
+      "entries": 2175,
+      "cal_ppd": -25.9211,
+      "buy_cal_ppd": -6.3332,
+      "sell_cal_ppd": -19.5879,
+      "total_pips": -18922.4062,
+      "exit_counts": {
+        "SL": 1721,
+        "TP": 1902,
+        "BOTH_SL": 727,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.3,
+      "entries": 2175,
+      "cal_ppd": -26.5544,
+      "buy_cal_ppd": 7.2324,
+      "sell_cal_ppd": -33.7868,
+      "total_pips": -19384.7137,
+      "exit_counts": {
+        "SL": 1960,
+        "TP": 2084,
+        "BOTH_SL": 306,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.2,
+      "entries": 2175,
+      "cal_ppd": -29.6794,
+      "buy_cal_ppd": -1.2277,
+      "sell_cal_ppd": -28.4517,
+      "total_pips": -21665.9392,
+      "exit_counts": {
+        "SL": 1833,
+        "TP": 2051,
+        "BOTH_SL": 466,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.4,
+      "entries": 2175,
+      "cal_ppd": -30.6639,
+      "buy_cal_ppd": 12.7738,
+      "sell_cal_ppd": -43.4377,
+      "total_pips": -22384.6452,
+      "exit_counts": {
+        "SL": 1980,
+        "TP": 2142,
+        "BOTH_SL": 228,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.25,
+      "entries": 2175,
+      "cal_ppd": -31.586,
+      "buy_cal_ppd": 3.2424,
+      "sell_cal_ppd": -34.8284,
+      "total_pips": -23057.755,
+      "exit_counts": {
+        "SL": 1777,
+        "TP": 2269,
+        "BOTH_SL": 304,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.2275,
+      "entries": 2175,
+      "cal_ppd": -32.8069,
+      "buy_cal_ppd": 1.8989,
+      "sell_cal_ppd": -34.7058,
+      "total_pips": -23949.0368,
+      "exit_counts": {
+        "SL": 1688,
+        "TP": 2366,
+        "BOTH_SL": 296,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.35,
+      "entries": 2175,
+      "cal_ppd": -32.8994,
+      "buy_cal_ppd": 9.5264,
+      "sell_cal_ppd": -42.4258,
+      "total_pips": -24016.5803,
+      "exit_counts": {
+        "SL": 1827,
+        "TP": 2317,
+        "BOTH_SL": 206,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.3,
+      "tp_mult": 0.05,
+      "entries": 2175,
+      "cal_ppd": -34.1668,
+      "buy_cal_ppd": -11.849,
+      "sell_cal_ppd": -22.3178,
+      "total_pips": -24941.8,
+      "exit_counts": {
+        "SL": 1511,
+        "TP": 2109,
+        "BOTH_SL": 730,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.15,
+      "entries": 2175,
+      "cal_ppd": -35.7461,
+      "buy_cal_ppd": -7.0484,
+      "sell_cal_ppd": -28.6977,
+      "total_pips": -26094.6401,
+      "exit_counts": {
+        "SL": 1651,
+        "TP": 2251,
+        "BOTH_SL": 448,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.2,
+      "entries": 2175,
+      "cal_ppd": -37.2138,
+      "buy_cal_ppd": -1.496,
+      "sell_cal_ppd": -35.7179,
+      "total_pips": -27166.1075,
+      "exit_counts": {
+        "SL": 1610,
+        "TP": 2450,
+        "BOTH_SL": 290,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.4,
+      "entries": 2175,
+      "cal_ppd": -39.0835,
+      "buy_cal_ppd": 12.5902,
+      "sell_cal_ppd": -51.6737,
+      "total_pips": -28530.98,
+      "exit_counts": {
+        "SL": 1769,
+        "TP": 2404,
+        "BOTH_SL": 177,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.3,
+      "entries": 2175,
+      "cal_ppd": -39.3799,
+      "buy_cal_ppd": 4.701,
+      "sell_cal_ppd": -44.0809,
+      "total_pips": -28747.3536,
+      "exit_counts": {
+        "SL": 1714,
+        "TP": 2437,
+        "BOTH_SL": 199,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.35,
+      "entries": 2175,
+      "cal_ppd": -41.2391,
+      "buy_cal_ppd": 9.7653,
+      "sell_cal_ppd": -51.0044,
+      "total_pips": -30104.5792,
+      "exit_counts": {
+        "SL": 1627,
+        "TP": 2558,
+        "BOTH_SL": 165,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.1,
+      "entries": 2175,
+      "cal_ppd": -44.0799,
+      "buy_cal_ppd": -13.0151,
+      "sell_cal_ppd": -31.0648,
+      "total_pips": -32178.3482,
+      "exit_counts": {
+        "SL": 1507,
+        "TP": 2422,
+        "BOTH_SL": 421,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.25,
+      "entries": 2175,
+      "cal_ppd": -44.8158,
+      "buy_cal_ppd": 0.2626,
+      "sell_cal_ppd": -45.0785,
+      "total_pips": -32715.5636,
+      "exit_counts": {
+        "SL": 1563,
+        "TP": 2604,
+        "BOTH_SL": 183,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.15,
+      "entries": 2175,
+      "cal_ppd": -45.0873,
+      "buy_cal_ppd": -8.3168,
+      "sell_cal_ppd": -36.7705,
+      "total_pips": -32913.7615,
+      "exit_counts": {
+        "SL": 1458,
+        "TP": 2621,
+        "BOTH_SL": 271,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.2275,
+      "entries": 2175,
+      "cal_ppd": -46.7994,
+      "buy_cal_ppd": -1.4111,
+      "sell_cal_ppd": -45.3884,
+      "total_pips": -34163.5743,
+      "exit_counts": {
+        "SL": 1492,
+        "TP": 2682,
+        "BOTH_SL": 176,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.3,
+      "entries": 2175,
+      "cal_ppd": -48.1488,
+      "buy_cal_ppd": 4.4457,
+      "sell_cal_ppd": -52.5945,
+      "total_pips": -35148.5916,
+      "exit_counts": {
+        "SL": 1517,
+        "TP": 2665,
+        "BOTH_SL": 168,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.4,
+      "entries": 2175,
+      "cal_ppd": -50.1808,
+      "buy_cal_ppd": 9.3736,
+      "sell_cal_ppd": -59.5544,
+      "total_pips": -36632.0081,
+      "exit_counts": {
+        "SL": 1554,
+        "TP": 2639,
+        "BOTH_SL": 157,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.2,
+      "entries": 2175,
+      "cal_ppd": -50.7647,
+      "buy_cal_ppd": -4.6829,
+      "sell_cal_ppd": -46.0817,
+      "total_pips": -37058.1951,
+      "exit_counts": {
+        "SL": 1421,
+        "TP": 2768,
+        "BOTH_SL": 161,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.25,
+      "entries": 2175,
+      "cal_ppd": -52.2958,
+      "buy_cal_ppd": 0.0443,
+      "sell_cal_ppd": -52.3401,
+      "total_pips": -38175.9355,
+      "exit_counts": {
+        "SL": 1382,
+        "TP": 2822,
+        "BOTH_SL": 146,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.35,
+      "entries": 2175,
+      "cal_ppd": -53.2525,
+      "buy_cal_ppd": 6.0213,
+      "sell_cal_ppd": -59.2738,
+      "total_pips": -38874.3089,
+      "exit_counts": {
+        "SL": 1432,
+        "TP": 2769,
+        "BOTH_SL": 149,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.4,
+      "tp_mult": 0.05,
+      "entries": 2175,
+      "cal_ppd": -54.4372,
+      "buy_cal_ppd": -20.3523,
+      "sell_cal_ppd": -34.0849,
+      "total_pips": -39739.1722,
+      "exit_counts": {
+        "SL": 1345,
+        "TP": 2608,
+        "BOTH_SL": 397,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.1,
+      "entries": 2175,
+      "cal_ppd": -54.6102,
+      "buy_cal_ppd": -15.5809,
+      "sell_cal_ppd": -39.0293,
+      "total_pips": -39865.4528,
+      "exit_counts": {
+        "SL": 1321,
+        "TP": 2774,
+        "BOTH_SL": 255,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.2275,
+      "entries": 2175,
+      "cal_ppd": -55.601,
+      "buy_cal_ppd": -2.58,
+      "sell_cal_ppd": -53.021,
+      "total_pips": -40588.7188,
+      "exit_counts": {
+        "SL": 1324,
+        "TP": 2883,
+        "BOTH_SL": 143,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.15,
+      "entries": 2175,
+      "cal_ppd": -59.3942,
+      "buy_cal_ppd": -12.5258,
+      "sell_cal_ppd": -46.8684,
+      "total_pips": -43357.7484,
+      "exit_counts": {
+        "SL": 1296,
+        "TP": 2905,
+        "BOTH_SL": 149,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.3,
+      "entries": 2175,
+      "cal_ppd": -59.4,
+      "buy_cal_ppd": 1.2133,
+      "sell_cal_ppd": -60.6133,
+      "total_pips": -43361.9652,
+      "exit_counts": {
+        "SL": 1329,
+        "TP": 2872,
+        "BOTH_SL": 149,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.2,
+      "entries": 2175,
+      "cal_ppd": -60.1194,
+      "buy_cal_ppd": -6.4358,
+      "sell_cal_ppd": -53.6836,
+      "total_pips": -43887.1926,
+      "exit_counts": {
+        "SL": 1263,
+        "TP": 2957,
+        "BOTH_SL": 130,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.25,
+      "entries": 2175,
+      "cal_ppd": -61.7003,
+      "buy_cal_ppd": -2.412,
+      "sell_cal_ppd": -59.2882,
+      "total_pips": -45041.1907,
+      "exit_counts": {
+        "SL": 1201,
+        "TP": 3019,
+        "BOTH_SL": 130,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.2275,
+      "entries": 2175,
+      "cal_ppd": -65.7022,
+      "buy_cal_ppd": -4.9411,
+      "sell_cal_ppd": -60.7611,
+      "total_pips": -47962.6005,
+      "exit_counts": {
+        "SL": 1163,
+        "TP": 3064,
+        "BOTH_SL": 123,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.5,
+      "tp_mult": 0.05,
+      "entries": 2175,
+      "cal_ppd": -66.183,
+      "buy_cal_ppd": -23.5457,
+      "sell_cal_ppd": -42.6372,
+      "total_pips": -48313.5725,
+      "exit_counts": {
+        "SL": 1183,
+        "TP": 2934,
+        "BOTH_SL": 233,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.1,
+      "entries": 2175,
+      "cal_ppd": -68.2535,
+      "buy_cal_ppd": -20.1713,
+      "sell_cal_ppd": -48.0822,
+      "total_pips": -49825.053,
+      "exit_counts": {
+        "SL": 1167,
+        "TP": 3051,
+        "BOTH_SL": 132,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.15,
+      "entries": 2175,
+      "cal_ppd": -69.3113,
+      "buy_cal_ppd": -14.7138,
+      "sell_cal_ppd": -54.5975,
+      "total_pips": -50597.2478,
+      "exit_counts": {
+        "SL": 1157,
+        "TP": 3078,
+        "BOTH_SL": 115,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.2,
+      "entries": 2175,
+      "cal_ppd": -69.7394,
+      "buy_cal_ppd": -8.3166,
+      "sell_cal_ppd": -61.4228,
+      "total_pips": -50909.762,
+      "exit_counts": {
+        "SL": 1108,
+        "TP": 3131,
+        "BOTH_SL": 111,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.1,
+      "entries": 2175,
+      "cal_ppd": -78.1499,
+      "buy_cal_ppd": -23.0387,
+      "sell_cal_ppd": -55.1112,
+      "total_pips": -57049.4127,
+      "exit_counts": {
+        "SL": 1042,
+        "TP": 3208,
+        "BOTH_SL": 100,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.15,
+      "entries": 2175,
+      "cal_ppd": -78.7975,
+      "buy_cal_ppd": -15.9657,
+      "sell_cal_ppd": -62.8318,
+      "total_pips": -57522.1745,
+      "exit_counts": {
+        "SL": 1012,
+        "TP": 3238,
+        "BOTH_SL": 100,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.65,
+      "tp_mult": 0.05,
+      "entries": 2175,
+      "cal_ppd": -79.1234,
+      "buy_cal_ppd": -28.0352,
+      "sell_cal_ppd": -51.0882,
+      "total_pips": -57760.098,
+      "exit_counts": {
+        "SL": 1043,
+        "TP": 3200,
+        "BOTH_SL": 107,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.1,
+      "entries": 2175,
+      "cal_ppd": -87.4076,
+      "buy_cal_ppd": -24.4903,
+      "sell_cal_ppd": -62.9173,
+      "total_pips": -63807.5143,
+      "exit_counts": {
+        "SL": 909,
+        "TP": 3350,
+        "BOTH_SL": 91,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 0.8,
+      "tp_mult": 0.05,
+      "entries": 2175,
+      "cal_ppd": -88.287,
+      "buy_cal_ppd": -30.7879,
+      "sell_cal_ppd": -57.499,
+      "total_pips": -64449.4798,
+      "exit_counts": {
+        "SL": 928,
+        "TP": 3336,
+        "BOTH_SL": 86,
+        "TIME_EXIT": 0
+      }
+    },
+    {
+      "sl_mult": 1.0,
+      "tp_mult": 0.05,
+      "entries": 2175,
+      "cal_ppd": -96.4104,
+      "buy_cal_ppd": -32.4254,
+      "sell_cal_ppd": -63.985,
+      "total_pips": -70379.5583,
+      "exit_counts": {
+        "SL": 806,
+        "TP": 3468,
+        "BOTH_SL": 76,
+        "TIME_EXIT": 0
+      }
+    }
+  ],
+  "best": {
+    "sl_mult": 0.2,
+    "tp_mult": 0.4,
+    "entries": 2175,
+    "cal_ppd": 29.182,
+    "buy_cal_ppd": 23.4544,
+    "sell_cal_ppd": 5.7276,
+    "total_pips": 21302.8523,
+    "exit_counts": {
+      "SL": 3202,
+      "TP": 379,
+      "BOTH_SL": 769,
+      "TIME_EXIT": 0
+    }
+  }
+}

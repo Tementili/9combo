@@ -1,0 +1,34 @@
+[
+  {
+    "case": "BUY_TP_THEN_SELL_TP_MOVED",
+    "n": 171,
+    "total_pips": 2565.0,
+    "total_weighted_pips": 188835.0,
+    "avg_total_pips": 15.0,
+    "avg_weighted_pips": 1104.2982
+  },
+  {
+    "case": "SELL_TP_INITIAL_BEFORE_BUYTP",
+    "n": 172,
+    "total_pips": 0.0,
+    "total_weighted_pips": 150444.0,
+    "avg_total_pips": 0.0,
+    "avg_weighted_pips": 874.6744
+  },
+  {
+    "case": "MIXED_TP_TIME_EXIT",
+    "n": 2,
+    "total_pips": -110.2,
+    "total_weighted_pips": -15136.0,
+    "avg_total_pips": -55.1,
+    "avg_weighted_pips": -7568.0
+  },
+  {
+    "case": "BUY_TP_THEN_SELL_SL",
+    "n": 17,
+    "total_pips": -2380.0,
+    "total_weighted_pips": -321160.0,
+    "avg_total_pips": -140.0,
+    "avg_weighted_pips": -18891.7647
+  }
+]

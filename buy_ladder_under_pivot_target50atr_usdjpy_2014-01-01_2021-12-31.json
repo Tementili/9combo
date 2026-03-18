@@ -1,0 +1,24 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "timeframe": "15m",
+  "mode": "buy_ladder_under_daily_pivot",
+  "entry_rule": "start first buy when close < daily pivot",
+  "add_rule": "add buy every additional 0.50*ATR drop from last entry",
+  "tp_rule": "new buy TP = previous buy entry",
+  "basket_target_rule": "close all when realized+floating >= +0.50*ATR (in pips)",
+  "atr_source": "previous daily ATR14",
+  "step_atr_frac": 0.5,
+  "target_atr_frac": 0.5,
+  "spread_pips_per_leg": 2.0,
+  "days_traded": 2249,
+  "days_target_hit": 334,
+  "target_hit_rate_on_traded_days": 0.1485,
+  "max_positions_open_same_time": 16,
+  "total_legs_closed": 3708,
+  "total_pips": -2942.7045,
+  "cal_ppd": -1.0071
+}

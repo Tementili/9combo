@@ -1,0 +1,20 @@
+{
+  "pair": "eurusd",
+  "timestamp": "2026-03-18T00:31:32.049528+00:00",
+  "code_hash": "dd1fe9f66b1f9a1621f4",
+  "frozen_cfg": {
+    "window_h": 24,
+    "sl_mult": 3.5,
+    "sl_main_frac": 0.7,
+    "tp_mode": "TP_ATR_1.5",
+    "skip_frac": 0.3
+  },
+  "oos_cal_ppd": 2.8388,
+  "oos_win_rate": 0.6124,
+  "oos_avg_pips": 3.6742,
+  "oos_ter": 0.1052,
+  "oos_trades": 1179,
+  "oos_best_day": 354.16,
+  "oos_worst_day": -542.91,
+  "oos_n_cal": 1526
+}

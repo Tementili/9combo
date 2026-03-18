@@ -1,0 +1,105 @@
+{
+  "pair": "EURJPY",
+  "reference_mode": "pivot",
+  "split": {
+    "train": [
+      "2013-01-01",
+      "2016-12-31"
+    ],
+    "adjust": [
+      "2017-01-01",
+      "2022-12-31"
+    ],
+    "oos": [
+      "2023-01-01",
+      "2026-03-06"
+    ]
+  },
+  "max_cpus_declared": 10,
+  "best_cfg": {
+    "buy_tp_above_yh_pips": 20.0,
+    "sell_tp_after_buytp_below_yh_pips": 1.0,
+    "sell_sl_above_yh_pips": 250.0,
+    "shared_selltp_buysl_offset_from_yl_pips": -40.0
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "n_configs": 81,
+      "winner_cfg": {
+        "buy_tp_above_yh_pips": 10.0,
+        "sell_tp_after_buytp_below_yh_pips": 5.0,
+        "sell_sl_above_yh_pips": 200.0,
+        "shared_selltp_buysl_offset_from_yl_pips": -20.0
+      },
+      "train_ppd": 3.1451,
+      "adjust_ppd": 1.8306,
+      "delta_vs_prev_adjust": 0.0
+    },
+    {
+      "round": 2,
+      "n_configs": 81,
+      "winner_cfg": {
+        "buy_tp_above_yh_pips": 15.0,
+        "sell_tp_after_buytp_below_yh_pips": 1.0,
+        "sell_sl_above_yh_pips": 250.0,
+        "shared_selltp_buysl_offset_from_yl_pips": -30.0
+      },
+      "train_ppd": 3.7652,
+      "adjust_ppd": 2.3118,
+      "delta_vs_prev_adjust": 0.4812
+    },
+    {
+      "round": 3,
+      "n_configs": 54,
+      "winner_cfg": {
+        "buy_tp_above_yh_pips": 20.0,
+        "sell_tp_after_buytp_below_yh_pips": 1.0,
+        "sell_sl_above_yh_pips": 250.0,
+        "shared_selltp_buysl_offset_from_yl_pips": -40.0
+      },
+      "train_ppd": 2.8489,
+      "adjust_ppd": 2.797,
+      "delta_vs_prev_adjust": 0.4852
+    },
+    {
+      "round": 4,
+      "n_configs": 54,
+      "winner_cfg": {
+        "buy_tp_above_yh_pips": 20.0,
+        "sell_tp_after_buytp_below_yh_pips": 1.0,
+        "sell_sl_above_yh_pips": 250.0,
+        "shared_selltp_buysl_offset_from_yl_pips": -40.0
+      },
+      "train_ppd": 2.8489,
+      "adjust_ppd": 2.797,
+      "delta_vs_prev_adjust": 0.0
+    },
+    {
+      "round": 5,
+      "n_configs": 54,
+      "winner_cfg": {
+        "buy_tp_above_yh_pips": 20.0,
+        "sell_tp_after_buytp_below_yh_pips": 1.0,
+        "sell_sl_above_yh_pips": 250.0,
+        "shared_selltp_buysl_offset_from_yl_pips": -40.0
+      },
+      "train_ppd": 2.8489,
+      "adjust_ppd": 2.797,
+      "delta_vs_prev_adjust": 0.0
+    }
+  ],
+  "oos": {
+    "total_pips": 1255.4,
+    "ppd": 1.0813,
+    "traded_days": 602,
+    "cases": {
+      "BUY_TP_THEN_SELL_TP_MOVED": 415,
+      "SELL_TP_INITIAL_BEFORE_BUYTP": 151,
+      "BUY_TP_THEN_SELL_SL": 31,
+      "MIXED_TP_TIME_EXIT": 4,
+      "BOTH_TIME_EXIT": 1,
+      "OTHER": 0
+    }
+  }
+}

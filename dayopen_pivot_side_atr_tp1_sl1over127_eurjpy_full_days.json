@@ -1,0 +1,21 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-08-18",
+    "2026-03-06"
+  ],
+  "rule": "day open < daily pivot -> BUY, day open > daily pivot -> SELL",
+  "tp_atr": 1.0,
+  "sl_atr": 0.7874015748031495,
+  "spread_pips": 1.0,
+  "days": 7038,
+  "buys": 2948,
+  "sells": 3425,
+  "skipped_equal_open_pp": 665,
+  "wins": 1055,
+  "losses": 1608,
+  "time_exits": 3710,
+  "win_rate_excl_time_exit": 0.39617,
+  "total_pips": -860.2384,
+  "cal_ppd": -0.1222
+}

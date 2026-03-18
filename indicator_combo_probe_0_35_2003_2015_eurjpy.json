@@ -1,0 +1,73 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "scope": "SELL side, buckets 0-35 only, hard SL55",
+  "results": [
+    {
+      "combo": "C4_rsi14_Q4_25_30_natr_Q5",
+      "trades": 15,
+      "win_rate": 0.8666666666666667,
+      "expectancy_pips": 36.276777777777184,
+      "avg_r": 0.6771721525364783,
+      "rr_ratio": 0.8987687333799181,
+      "profit_factor": 5.8419967669694675
+    },
+    {
+      "combo": "C7_combo_union_strict",
+      "trades": 36,
+      "win_rate": 0.8611111111111112,
+      "expectancy_pips": 25.057037037037034,
+      "avg_r": 0.41805727107455454,
+      "rr_ratio": 0.6088493022726561,
+      "profit_factor": 3.774865674090468
+    },
+    {
+      "combo": "C2_macdh_Q5_15_20_atr_Q5",
+      "trades": 21,
+      "win_rate": 0.8571428571428571,
+      "expectancy_pips": 17.042936507936922,
+      "avg_r": 0.2329752128874661,
+      "rr_ratio": 0.44711210713139277,
+      "profit_factor": 2.6826726427883565
+    },
+    {
+      "combo": "C1_macdh_Q5_15_20",
+      "trades": 72,
+      "win_rate": 0.8472222222222222,
+      "expectancy_pips": 9.442569444444455,
+      "avg_r": 0.21019363095895416,
+      "rr_ratio": 0.3814295223949503,
+      "profit_factor": 2.1152000787356333
+    },
+    {
+      "combo": "C6_combo_union_core",
+      "trades": 158,
+      "win_rate": 0.7278481012658228,
+      "expectancy_pips": 8.918069620253016,
+      "avg_r": 0.2068568385161024,
+      "rr_ratio": 0.7050009469446363,
+      "profit_factor": 1.8854676488054227
+    },
+    {
+      "combo": "C3_rsi14_Q4_25_30",
+      "trades": 86,
+      "win_rate": 0.627906976744186,
+      "expectancy_pips": 8.47895348837181,
+      "avg_r": 0.20406324484301713,
+      "rr_ratio": 1.0327707156601782,
+      "profit_factor": 1.7428005826765507
+    },
+    {
+      "combo": "C5_parkvol_Q5_25_30",
+      "trades": 80,
+      "win_rate": 0.6125,
+      "expectancy_pips": 6.946395833333355,
+      "avg_r": 0.20300115534639115,
+      "rr_ratio": 0.8253003796925239,
+      "profit_factor": 1.3045070517720538
+    }
+  ]
+}

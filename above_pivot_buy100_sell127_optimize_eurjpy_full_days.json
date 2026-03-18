@@ -1,0 +1,279 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-08-05",
+    "2026-03-06"
+  ],
+  "rule": "if day open > pivot: open BUY(1.00) + SELL(1.27) at day open",
+  "fixed_rules": {
+    "sell_initial_tp": "yesterday low",
+    "buy_sl": "yesterday low",
+    "cost_pips_per_leg": 1.0
+  },
+  "optimized": {
+    "buy_tp_above_yh_pips_grid": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      75,
+      100,
+      125,
+      150
+    ],
+    "sell_sl_above_yh_pips_grid": [
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      400
+    ],
+    "sell_tp_after_buy_below_yh_pips_grid": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      75,
+      100
+    ]
+  },
+  "best": {
+    "buy_tp_above_yh_pips": 150.0,
+    "sell_sl_above_yh_pips": 50.0,
+    "sell_tp_after_buy_below_yh_pips": 75.0,
+    "above_pivot_days": 3430.0,
+    "closed_legs": 6860.0,
+    "weighted_total_pips": -4477.494,
+    "weighted_buy_pips": -4855.7,
+    "weighted_sell_pips": 378.206,
+    "cal_ppd_weighted": -0.635
+  },
+  "top20": [
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 75,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 100,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 40,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 10,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 20,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 30,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 0,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 150,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 50,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4477.494,
+      "weighted_buy_pips": -4855.7,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.635
+    },
+    {
+      "buy_tp_above_yh_pips": 20,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 100,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4906.474,
+      "weighted_buy_pips": -6651.2,
+      "weighted_sell_pips": 1744.726,
+      "cal_ppd_weighted": -0.6959
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 30,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 10,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 100,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 75,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 0,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 20,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 50,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 125,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 40,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -4978.294,
+      "weighted_buy_pips": -5356.5,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.706
+    },
+    {
+      "buy_tp_above_yh_pips": 100,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 20,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -5402.194,
+      "weighted_buy_pips": -5780.4,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.7662
+    },
+    {
+      "buy_tp_above_yh_pips": 100,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 10,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -5402.194,
+      "weighted_buy_pips": -5780.4,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.7662
+    },
+    {
+      "buy_tp_above_yh_pips": 100,
+      "sell_sl_above_yh_pips": 50,
+      "sell_tp_after_buy_below_yh_pips": 75,
+      "above_pivot_days": 3430,
+      "closed_legs": 6860,
+      "weighted_total_pips": -5402.194,
+      "weighted_buy_pips": -5780.4,
+      "weighted_sell_pips": 378.206,
+      "cal_ppd_weighted": -0.7662
+    }
+  ]
+}

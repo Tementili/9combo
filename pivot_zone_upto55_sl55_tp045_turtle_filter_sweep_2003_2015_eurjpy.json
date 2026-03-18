@@ -1,0 +1,93 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "entry_zone_norm": [
+    0.225,
+    0.55
+  ],
+  "sl_norm": 0.55,
+  "tp_norm": 0.45,
+  "turtle_filter": "BUY only if day open <= turtle mid; SELL only if day open >= turtle mid",
+  "lookbacks": [
+    10,
+    20,
+    55
+  ],
+  "best": {
+    "days": 3885.0,
+    "entries": 1661.0,
+    "buys": 669.0,
+    "sells": 992.0,
+    "no_entry_days": 2224.0,
+    "ambiguous_days": 26.0,
+    "blocked_under55_before_entry": 35.0,
+    "filtered_out_by_turtle": 1261.0,
+    "wins": 531.0,
+    "losses": 1130.0,
+    "dataset_end_exits": 0.0,
+    "win_rate": 0.319687,
+    "total_pips": 812.25,
+    "cal_ppd": 0.2091,
+    "avg_pips_per_trade": 0.489,
+    "turtle_lookback": 55.0
+  },
+  "all_results": [
+    {
+      "days": 3885,
+      "entries": 1661,
+      "buys": 669,
+      "sells": 992,
+      "no_entry_days": 2224,
+      "ambiguous_days": 26,
+      "blocked_under55_before_entry": 35,
+      "filtered_out_by_turtle": 1261,
+      "wins": 531,
+      "losses": 1130,
+      "dataset_end_exits": 0,
+      "win_rate": 0.319687,
+      "total_pips": 812.25,
+      "cal_ppd": 0.2091,
+      "avg_pips_per_trade": 0.489,
+      "turtle_lookback": 55
+    },
+    {
+      "days": 3930,
+      "entries": 1893,
+      "buys": 783,
+      "sells": 1110,
+      "no_entry_days": 2037,
+      "ambiguous_days": 26,
+      "blocked_under55_before_entry": 35,
+      "filtered_out_by_turtle": 1065,
+      "wins": 608,
+      "losses": 1285,
+      "dataset_end_exits": 0,
+      "win_rate": 0.321183,
+      "total_pips": 589.6033,
+      "cal_ppd": 0.15,
+      "avg_pips_per_trade": 0.3115,
+      "turtle_lookback": 10
+    },
+    {
+      "days": 3920,
+      "entries": 1771,
+      "buys": 724,
+      "sells": 1047,
+      "no_entry_days": 2149,
+      "ambiguous_days": 26,
+      "blocked_under55_before_entry": 35,
+      "filtered_out_by_turtle": 1180,
+      "wins": 566,
+      "losses": 1205,
+      "dataset_end_exits": 0,
+      "win_rate": 0.319593,
+      "total_pips": 417.2167,
+      "cal_ppd": 0.1064,
+      "avg_pips_per_trade": 0.2356,
+      "turtle_lookback": 20
+    }
+  ]
+}

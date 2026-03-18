@@ -1,0 +1,4 @@
+days,entries,buys,sells,no_entry_days,ambiguous_days,blocked_under55_before_entry,filtered_out_by_turtle,wins,losses,dataset_end_exits,win_rate,total_pips,cal_ppd,avg_pips_per_trade,turtle_lookback
+3885,1661,669,992,2224,26,35,1261,531,1130,0,0.319687,812.25,0.2091,0.489,55
+3930,1893,783,1110,2037,26,35,1065,608,1285,0,0.321183,589.6033,0.15,0.3115,10
+3920,1771,724,1047,2149,26,35,1180,566,1205,0,0.319593,417.2167,0.1064,0.2356,20

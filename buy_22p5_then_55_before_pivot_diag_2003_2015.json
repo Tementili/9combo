@@ -1,0 +1,16 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "condition": "after BUY 22.5% touch, does 55% happen before pivot?",
+  "buy_22p5_triggers": 2014,
+  "hit_55_before_pivot": 694,
+  "hit_pivot_before_55": 1247,
+  "neither_until_day_end": 73,
+  "rate_55_before_pivot": 0.344588,
+  "rate_pivot_before_55": 0.619166,
+  "pivot_after_55_same_day": 288,
+  "rate_pivot_after_55_given_55first": 0.414986
+}

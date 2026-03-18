@@ -1,0 +1,44 @@
+{
+  "pair": "eurjpy",
+  "timestamp": "2026-03-18T00:56:44.343009+00:00",
+  "code_hash": "85ed130df7400e19d248",
+  "frozen_cfg": {
+    "window_h": 8,
+    "sl_mult": 3.0,
+    "sl_main_frac": 0.3,
+    "tp_mode": "TP_ATR_1.5",
+    "skip_frac": 0.3,
+    "ao_frac": 0.7
+  },
+  "n_oos": 1526,
+  "be_off": {
+    "cal_ppd": -6.2036,
+    "main_cal_ppd": -4.8893,
+    "addon_cal_ppd": -1.3143,
+    "win_rate": 0.3687,
+    "total_trades": 952,
+    "n_cal_days": 1526,
+    "addon_fire_rate": 0.708,
+    "best_day": 740.78,
+    "worst_day": -414.16,
+    "be_tp_count": 0,
+    "sl_count": 600,
+    "tp_count": 346,
+    "time_exit_count": 6
+  },
+  "be_on": {
+    "cal_ppd": -7.189,
+    "main_cal_ppd": -5.8747,
+    "addon_cal_ppd": -1.3143,
+    "win_rate": 0.3687,
+    "total_trades": 952,
+    "n_cal_days": 1526,
+    "addon_fire_rate": 0.708,
+    "best_day": 594.83,
+    "worst_day": -414.16,
+    "be_tp_count": 179,
+    "sl_count": 494,
+    "tp_count": 276,
+    "time_exit_count": 3
+  }
+}

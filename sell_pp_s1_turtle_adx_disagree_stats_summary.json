@@ -1,0 +1,54 @@
+{
+  "both_up": {
+    "mask": "both_up",
+    "n_trades": 260,
+    "total_pips": 6607.02,
+    "avg_pips_trade": 25.4116,
+    "median_pips_trade": 59.3385,
+    "std_pips_trade": 73.4875,
+    "active_days": 260,
+    "pips_per_active_day": 25.4116,
+    "cal_days": 8090,
+    "cal_ppd": 0.8167,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\ledger_both_up.csv"
+  },
+  "both_down": {
+    "mask": "both_down",
+    "n_trades": 317,
+    "total_pips": 9438.09,
+    "avg_pips_trade": 29.7732,
+    "median_pips_trade": 61.1634,
+    "std_pips_trade": 85.4327,
+    "active_days": 317,
+    "pips_per_active_day": 29.7732,
+    "cal_days": 8170,
+    "cal_ppd": 1.1552,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\ledger_both_down.csv"
+  },
+  "turtle_up_di_down": {
+    "mask": "turtle_up_di_down",
+    "n_trades": 146,
+    "total_pips": 3605.4,
+    "avg_pips_trade": 24.6945,
+    "median_pips_trade": 65.0949,
+    "std_pips_trade": 77.2732,
+    "active_days": 146,
+    "pips_per_active_day": 24.6945,
+    "cal_days": 8142,
+    "cal_ppd": 0.4428,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\ledger_turtle_up_di_down.csv"
+  },
+  "turtle_down_di_up": {
+    "mask": "turtle_down_di_up",
+    "n_trades": 73,
+    "total_pips": 79.07,
+    "avg_pips_trade": 1.0831,
+    "median_pips_trade": -37.961,
+    "std_pips_trade": 77.7464,
+    "active_days": 73,
+    "pips_per_active_day": 1.0831,
+    "cal_days": 7611,
+    "cal_ppd": 0.0104,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\ledger_turtle_down_di_up.csv"
+  }
+}

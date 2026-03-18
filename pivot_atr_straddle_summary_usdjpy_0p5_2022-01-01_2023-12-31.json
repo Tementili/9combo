@@ -1,0 +1,36 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "atr_period": 14,
+  "atr_mult": 0.5,
+  "max_hold_hours": 432,
+  "traded_days": 680,
+  "n_legs": 1360,
+  "cal_ppd": -6.4528,
+  "buy_cal_ppd": 2.3471,
+  "sell_cal_ppd": -8.7999,
+  "total_pips": -4710.5585,
+  "buy_total_pips": 1713.39,
+  "sell_total_pips": -6423.9485,
+  "avg_loss_all_legs": -27.3973,
+  "avg_loss_buy_legs": -25.8047,
+  "avg_loss_sell_legs": -28.6898,
+  "avg_loss_abs_all_legs": 27.3973,
+  "avg_loss_abs_buy_legs": 25.8047,
+  "avg_loss_abs_sell_legs": 28.6898,
+  "avg_atr_pips_losing_legs": 98.9479,
+  "avg_atr_pips_losing_buy_legs": 99.5932,
+  "avg_atr_pips_losing_sell_legs": 98.4242,
+  "avg_loss_pct_of_atr_all_legs": 27.79,
+  "avg_loss_pct_of_atr_buy_legs": 25.65,
+  "avg_loss_pct_of_atr_sell_legs": 29.54,
+  "n_losing_legs": 913,
+  "exit_counts": {
+    "SL": 902,
+    "TP": 275,
+    "BOTH_SL": 183
+  }
+}

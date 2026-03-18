@@ -1,0 +1,57 @@
+{
+  "pair": "eurusd",
+  "layer": "L1",
+  "timestamp": "2026-03-18T01:52:27.569410+00:00",
+  "code_hash": "3f22e30587174ccd3722",
+  "frozen_cfg": {
+    "window_h": 24,
+    "sl_mult": 3.5,
+    "sl_main_frac": 0.7,
+    "tp_mode": "TP_ATR_2.0",
+    "skip_frac": 0.3
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "n_configs": 864,
+      "winner_cfg": {
+        "window_h": 24,
+        "sl_mult": 3.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_2.0",
+        "skip_frac": 0.3
+      },
+      "tr_ppd": 9.8433,
+      "adj_ppd": 20.4203,
+      "adj_delta": 10019.4203
+    },
+    {
+      "round": 2,
+      "n_configs": 192,
+      "winner_cfg": {
+        "window_h": 24,
+        "sl_mult": 3.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_2.0",
+        "skip_frac": 0.3
+      },
+      "tr_ppd": 9.8433,
+      "adj_ppd": 20.4203,
+      "adj_delta": 0.0
+    },
+    {
+      "round": 3,
+      "n_configs": 144,
+      "winner_cfg": {
+        "window_h": 24,
+        "sl_mult": 3.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_2.0",
+        "skip_frac": 0.3
+      },
+      "tr_ppd": 9.8433,
+      "adj_ppd": 20.4203,
+      "adj_delta": 0.0
+    }
+  ]
+}

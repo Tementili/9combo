@@ -1,0 +1,385 @@
+{
+  "pair": "usdjpy",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "mode": "hourly-pivot-entry-time-sweep",
+  "entry_pivot": "previous completed hour pivot (H+L+C)/3",
+  "atr_source": "daily ATR14",
+  "sl_mult": 0.08,
+  "tp_mult": 0.55,
+  "max_hold_hours": 432,
+  "tested_entry_times": [
+    "00:00",
+    "01:00",
+    "02:00",
+    "03:00",
+    "04:00",
+    "05:00",
+    "06:00",
+    "07:00",
+    "08:00",
+    "09:00",
+    "10:00",
+    "11:00",
+    "12:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00",
+    "18:00",
+    "19:00",
+    "20:00",
+    "21:00",
+    "22:00",
+    "23:00"
+  ],
+  "best": [
+    {
+      "entry_time": "14:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1627,
+      "total_legs_closed": 9092,
+      "total_pips": 988.5638,
+      "cal_ppd": 0.3383,
+      "buy_cal_ppd": 0.8272,
+      "sell_cal_ppd": -0.4888
+    },
+    {
+      "entry_time": "13:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1597,
+      "total_legs_closed": 9032,
+      "total_pips": -490.0458,
+      "cal_ppd": -0.1677,
+      "buy_cal_ppd": 0.5314,
+      "sell_cal_ppd": -0.6991
+    },
+    {
+      "entry_time": "01:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1552,
+      "total_legs_closed": 8942,
+      "total_pips": -1256.2877,
+      "cal_ppd": -0.4299,
+      "buy_cal_ppd": 0.229,
+      "sell_cal_ppd": -0.659
+    },
+    {
+      "entry_time": "15:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1512,
+      "total_legs_closed": 8862,
+      "total_pips": -2357.4684,
+      "cal_ppd": -0.8068,
+      "buy_cal_ppd": 0.5467,
+      "sell_cal_ppd": -1.3535
+    },
+    {
+      "entry_time": "02:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1502,
+      "total_legs_closed": 8842,
+      "total_pips": -2551.6868,
+      "cal_ppd": -0.8733,
+      "buy_cal_ppd": -0.2344,
+      "sell_cal_ppd": -0.6388
+    }
+  ],
+  "worst": [
+    {
+      "entry_time": "17:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1296,
+      "total_legs_closed": 8430,
+      "total_pips": -7033.0714,
+      "cal_ppd": -2.4069,
+      "buy_cal_ppd": -0.2989,
+      "sell_cal_ppd": -2.108
+    },
+    {
+      "entry_time": "18:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1300,
+      "total_legs_closed": 8438,
+      "total_pips": -7097.7559,
+      "cal_ppd": -2.4291,
+      "buy_cal_ppd": -0.4069,
+      "sell_cal_ppd": -2.0222
+    },
+    {
+      "entry_time": "21:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1239,
+      "total_legs_closed": 8316,
+      "total_pips": -8426.2791,
+      "cal_ppd": -2.8837,
+      "buy_cal_ppd": -0.8047,
+      "sell_cal_ppd": -2.079
+    },
+    {
+      "entry_time": "19:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1232,
+      "total_legs_closed": 8302,
+      "total_pips": -8883.3985,
+      "cal_ppd": -3.0402,
+      "buy_cal_ppd": -0.8583,
+      "sell_cal_ppd": -2.1819
+    },
+    {
+      "entry_time": "20:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1213,
+      "total_legs_closed": 8264,
+      "total_pips": -9031.5616,
+      "cal_ppd": -3.0909,
+      "buy_cal_ppd": -0.7632,
+      "sell_cal_ppd": -2.3277
+    }
+  ],
+  "all_results": [
+    {
+      "entry_time": "14:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1627,
+      "total_legs_closed": 9092,
+      "total_pips": 988.5638,
+      "cal_ppd": 0.3383,
+      "buy_cal_ppd": 0.8272,
+      "sell_cal_ppd": -0.4888
+    },
+    {
+      "entry_time": "13:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1597,
+      "total_legs_closed": 9032,
+      "total_pips": -490.0458,
+      "cal_ppd": -0.1677,
+      "buy_cal_ppd": 0.5314,
+      "sell_cal_ppd": -0.6991
+    },
+    {
+      "entry_time": "01:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1552,
+      "total_legs_closed": 8942,
+      "total_pips": -1256.2877,
+      "cal_ppd": -0.4299,
+      "buy_cal_ppd": 0.229,
+      "sell_cal_ppd": -0.659
+    },
+    {
+      "entry_time": "15:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1512,
+      "total_legs_closed": 8862,
+      "total_pips": -2357.4684,
+      "cal_ppd": -0.8068,
+      "buy_cal_ppd": 0.5467,
+      "sell_cal_ppd": -1.3535
+    },
+    {
+      "entry_time": "02:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1502,
+      "total_legs_closed": 8842,
+      "total_pips": -2551.6868,
+      "cal_ppd": -0.8733,
+      "buy_cal_ppd": -0.2344,
+      "sell_cal_ppd": -0.6388
+    },
+    {
+      "entry_time": "08:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1473,
+      "total_legs_closed": 8784,
+      "total_pips": -2688.1788,
+      "cal_ppd": -0.92,
+      "buy_cal_ppd": 0.3095,
+      "sell_cal_ppd": -1.2294
+    },
+    {
+      "entry_time": "03:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1451,
+      "total_legs_closed": 8740,
+      "total_pips": -3105.7204,
+      "cal_ppd": -1.0629,
+      "buy_cal_ppd": 0.2186,
+      "sell_cal_ppd": -1.2815
+    },
+    {
+      "entry_time": "12:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1473,
+      "total_legs_closed": 8784,
+      "total_pips": -3578.3851,
+      "cal_ppd": -1.2246,
+      "buy_cal_ppd": 0.1585,
+      "sell_cal_ppd": -1.3831
+    },
+    {
+      "entry_time": "07:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1420,
+      "total_legs_closed": 8678,
+      "total_pips": -3700.8026,
+      "cal_ppd": -1.2665,
+      "buy_cal_ppd": 0.4555,
+      "sell_cal_ppd": -1.722
+    },
+    {
+      "entry_time": "10:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1434,
+      "total_legs_closed": 8706,
+      "total_pips": -3955.0258,
+      "cal_ppd": -1.3535,
+      "buy_cal_ppd": 0.2973,
+      "sell_cal_ppd": -1.6508
+    },
+    {
+      "entry_time": "00:00",
+      "initial_entries": 2918,
+      "reentry_pairs": 1442,
+      "total_legs_closed": 8720,
+      "total_pips": -4194.0413,
+      "cal_ppd": -1.4353,
+      "buy_cal_ppd": -0.3699,
+      "sell_cal_ppd": -1.0655
+    },
+    {
+      "entry_time": "09:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1435,
+      "total_legs_closed": 8708,
+      "total_pips": -4428.5276,
+      "cal_ppd": -1.5156,
+      "buy_cal_ppd": 0.2113,
+      "sell_cal_ppd": -1.7269
+    },
+    {
+      "entry_time": "11:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1412,
+      "total_legs_closed": 8662,
+      "total_pips": -5455.7881,
+      "cal_ppd": -1.8671,
+      "buy_cal_ppd": 0.1528,
+      "sell_cal_ppd": -2.0199
+    },
+    {
+      "entry_time": "16:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1359,
+      "total_legs_closed": 8556,
+      "total_pips": -5747.8362,
+      "cal_ppd": -1.9671,
+      "buy_cal_ppd": -0.0072,
+      "sell_cal_ppd": -1.9599
+    },
+    {
+      "entry_time": "04:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1335,
+      "total_legs_closed": 8508,
+      "total_pips": -6222.6584,
+      "cal_ppd": -2.1296,
+      "buy_cal_ppd": -0.331,
+      "sell_cal_ppd": -1.7986
+    },
+    {
+      "entry_time": "06:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1359,
+      "total_legs_closed": 8556,
+      "total_pips": -6226.7785,
+      "cal_ppd": -2.131,
+      "buy_cal_ppd": -0.183,
+      "sell_cal_ppd": -1.948
+    },
+    {
+      "entry_time": "22:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1340,
+      "total_legs_closed": 8518,
+      "total_pips": -6689.83,
+      "cal_ppd": -2.2895,
+      "buy_cal_ppd": -0.164,
+      "sell_cal_ppd": -2.1254
+    },
+    {
+      "entry_time": "05:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1325,
+      "total_legs_closed": 8488,
+      "total_pips": -6754.6866,
+      "cal_ppd": -2.3117,
+      "buy_cal_ppd": -0.3486,
+      "sell_cal_ppd": -1.9631
+    },
+    {
+      "entry_time": "23:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1341,
+      "total_legs_closed": 8520,
+      "total_pips": -7027.1259,
+      "cal_ppd": -2.4049,
+      "buy_cal_ppd": -0.73,
+      "sell_cal_ppd": -1.6749
+    },
+    {
+      "entry_time": "17:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1296,
+      "total_legs_closed": 8430,
+      "total_pips": -7033.0714,
+      "cal_ppd": -2.4069,
+      "buy_cal_ppd": -0.2989,
+      "sell_cal_ppd": -2.108
+    },
+    {
+      "entry_time": "18:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1300,
+      "total_legs_closed": 8438,
+      "total_pips": -7097.7559,
+      "cal_ppd": -2.4291,
+      "buy_cal_ppd": -0.4069,
+      "sell_cal_ppd": -2.0222
+    },
+    {
+      "entry_time": "21:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1239,
+      "total_legs_closed": 8316,
+      "total_pips": -8426.2791,
+      "cal_ppd": -2.8837,
+      "buy_cal_ppd": -0.8047,
+      "sell_cal_ppd": -2.079
+    },
+    {
+      "entry_time": "19:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1232,
+      "total_legs_closed": 8302,
+      "total_pips": -8883.3985,
+      "cal_ppd": -3.0402,
+      "buy_cal_ppd": -0.8583,
+      "sell_cal_ppd": -2.1819
+    },
+    {
+      "entry_time": "20:00",
+      "initial_entries": 2919,
+      "reentry_pairs": 1213,
+      "total_legs_closed": 8264,
+      "total_pips": -9031.5616,
+      "cal_ppd": -3.0909,
+      "buy_cal_ppd": -0.7632,
+      "sell_cal_ppd": -2.3277
+    }
+  ]
+}

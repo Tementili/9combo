@@ -1,0 +1,14 @@
+{
+  "pair": "usdjpy",
+  "layer": "L4",
+  "timestamp": "2026-03-18T02:17:35.847653+00:00",
+  "code_hash": "3f22e30587174ccd3722",
+  "frozen_cfg": {
+    "window_h": 24,
+    "sl_mult": 2.5,
+    "sl_main_frac": 0.7,
+    "tp_mode": "TP_ATR_2.0",
+    "skip_frac": 0.4,
+    "ao_frac": 0.7
+  }
+}

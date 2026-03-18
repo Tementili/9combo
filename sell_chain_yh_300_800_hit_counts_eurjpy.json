@@ -1,0 +1,18 @@
+{
+  "pair": "EURJPY",
+  "rule": "SELL at YH touch; TP=YL; SL=YH+300. If SL hit -> new SELL at YH+300 with TP=YH and SL=YH+800.",
+  "entry_fill": "real touch at YH",
+  "exit_policy": "no forced close; positions may remain open to dataset end",
+  "days_with_leg1_entry": 3711,
+  "leg1": {
+    "tp_hits": 2991,
+    "sl_hits": 716,
+    "still_open_at_dataset_end": 4
+  },
+  "leg2": {
+    "started_after_leg1_sl": 716,
+    "tp_hits": 399,
+    "sl_hits": 313,
+    "still_open_at_dataset_end": 4
+  }
+}

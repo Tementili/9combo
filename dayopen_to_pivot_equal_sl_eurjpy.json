@@ -1,0 +1,21 @@
+{
+  "pair": "EURJPY",
+  "days": 7051,
+  "max_hold_hours": 720,
+  "entry_rule": "enter at day open",
+  "direction_rule": "open<pivot BUY, open>pivot SELL",
+  "tp_rule": "TP at pivot",
+  "sl_rule": "SL equal distance opposite side from entry",
+  "spread_pips": 1.0,
+  "wins": 3034,
+  "losses": 3352,
+  "time_exits": 2,
+  "win_rate": 0.475102,
+  "buys": 2956,
+  "sells": 3430,
+  "skipped_equal_open_pivot": 665,
+  "buy_pips": -5831.9333,
+  "sell_pips": -1943.0667,
+  "total_pips": -7775.0,
+  "cal_ppd": -1.1027
+}

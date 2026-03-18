@@ -1,0 +1,98 @@
+{
+  "pair": "USDJPY",
+  "timeframe": "15m",
+  "mode": "8h_open_tp_reentry_chain",
+  "window_starts_utc": [
+    0,
+    8,
+    16
+  ],
+  "atr_source": "daily ATR14 (previous day)",
+  "max_hold_hours": 432,
+  "results": {
+    "reference_2014_2021": {
+      "period": [
+        "2014-01-01",
+        "2021-12-31"
+      ],
+      "sl_mult": 0.08,
+      "tp_mult": 0.55,
+      "initial_entries": 8757,
+      "reentry_pairs": 288,
+      "total_legs_closed": 18090,
+      "cal_ppd": 41.5185,
+      "buy_cal_ppd": 21.2976,
+      "sell_cal_ppd": 20.2209,
+      "total_pips": 121317.0278,
+      "exit_counts": {
+        "SL": 15719,
+        "TP": 288,
+        "BOTH_SL": 2083,
+        "TIME_EXIT": 0
+      }
+    },
+    "rest_pre_2014": {
+      "period": [
+        "2003-08-04",
+        "2013-12-31"
+      ],
+      "sl_mult": 0.08,
+      "tp_mult": 0.55,
+      "initial_entries": 11367,
+      "reentry_pairs": 314,
+      "total_legs_closed": 23362,
+      "cal_ppd": 51.947,
+      "buy_cal_ppd": 25.1985,
+      "sell_cal_ppd": 26.7484,
+      "total_pips": 197554.2867,
+      "exit_counts": {
+        "SL": 20440,
+        "TP": 314,
+        "BOTH_SL": 2608,
+        "TIME_EXIT": 0
+      }
+    },
+    "rest_2022_plus": {
+      "period": [
+        "2022-01-01",
+        "2026-03-06"
+      ],
+      "sl_mult": 0.08,
+      "tp_mult": 0.55,
+      "initial_entries": 4563,
+      "reentry_pairs": 228,
+      "total_legs_closed": 9582,
+      "cal_ppd": 77.6094,
+      "buy_cal_ppd": 44.5321,
+      "sell_cal_ppd": 33.0773,
+      "total_pips": 118431.9971,
+      "exit_counts": {
+        "SL": 8295,
+        "TP": 228,
+        "BOTH_SL": 1059,
+        "TIME_EXIT": 0
+      }
+    },
+    "full_available": {
+      "period": [
+        "2003-08-04",
+        "2026-03-06"
+      ],
+      "sl_mult": 0.08,
+      "tp_mult": 0.55,
+      "initial_entries": 24687,
+      "reentry_pairs": 830,
+      "total_legs_closed": 51034,
+      "cal_ppd": 53.0,
+      "buy_cal_ppd": 27.3927,
+      "sell_cal_ppd": 25.6073,
+      "total_pips": 437303.3116,
+      "exit_counts": {
+        "SL": 44454,
+        "TP": 830,
+        "BOTH_SL": 5750,
+        "TIME_EXIT": 0
+      }
+    }
+  }
+}

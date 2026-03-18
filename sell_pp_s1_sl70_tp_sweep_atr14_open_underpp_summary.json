@@ -1,0 +1,140 @@
+{
+  "best": {
+    "tp_mult": 1.4,
+    "n_trades": 2948.0,
+    "total_pips": 56128.78,
+    "cal_ppd": 6.8027,
+    "win_rate": 0.54,
+    "avg_pips_per_trade": 19.0396
+  },
+  "results": [
+    {
+      "tp_mult": 1.2,
+      "n_trades": 2948,
+      "total_pips": 54221.5,
+      "cal_ppd": 6.5715,
+      "win_rate": 0.5848,
+      "avg_pips_per_trade": 18.3926
+    },
+    {
+      "tp_mult": 1.22,
+      "n_trades": 2948,
+      "total_pips": 54012.79,
+      "cal_ppd": 6.5462,
+      "win_rate": 0.5794,
+      "avg_pips_per_trade": 18.3218
+    },
+    {
+      "tp_mult": 1.24,
+      "n_trades": 2948,
+      "total_pips": 53270.81,
+      "cal_ppd": 6.4563,
+      "win_rate": 0.5723,
+      "avg_pips_per_trade": 18.0702
+    },
+    {
+      "tp_mult": 1.26,
+      "n_trades": 2948,
+      "total_pips": 52341.0,
+      "cal_ppd": 6.3436,
+      "win_rate": 0.5661,
+      "avg_pips_per_trade": 17.7547
+    },
+    {
+      "tp_mult": 1.28,
+      "n_trades": 2948,
+      "total_pips": 53261.84,
+      "cal_ppd": 6.4552,
+      "win_rate": 0.5631,
+      "avg_pips_per_trade": 18.0671
+    },
+    {
+      "tp_mult": 1.3,
+      "n_trades": 2948,
+      "total_pips": 53167.82,
+      "cal_ppd": 6.4438,
+      "win_rate": 0.5583,
+      "avg_pips_per_trade": 18.0352
+    },
+    {
+      "tp_mult": 1.32,
+      "n_trades": 2948,
+      "total_pips": 53237.54,
+      "cal_ppd": 6.4523,
+      "win_rate": 0.5539,
+      "avg_pips_per_trade": 18.0589
+    },
+    {
+      "tp_mult": 1.34,
+      "n_trades": 2948,
+      "total_pips": 54463.83,
+      "cal_ppd": 6.6009,
+      "win_rate": 0.5516,
+      "avg_pips_per_trade": 18.4748
+    },
+    {
+      "tp_mult": 1.36,
+      "n_trades": 2948,
+      "total_pips": 55517.37,
+      "cal_ppd": 6.7286,
+      "win_rate": 0.5485,
+      "avg_pips_per_trade": 18.8322
+    },
+    {
+      "tp_mult": 1.38,
+      "n_trades": 2948,
+      "total_pips": 55928.89,
+      "cal_ppd": 6.7784,
+      "win_rate": 0.5444,
+      "avg_pips_per_trade": 18.9718
+    },
+    {
+      "tp_mult": 1.4,
+      "n_trades": 2948,
+      "total_pips": 56128.78,
+      "cal_ppd": 6.8027,
+      "win_rate": 0.54,
+      "avg_pips_per_trade": 19.0396
+    },
+    {
+      "tp_mult": 1.42,
+      "n_trades": 2948,
+      "total_pips": 54682.05,
+      "cal_ppd": 6.6273,
+      "win_rate": 0.5329,
+      "avg_pips_per_trade": 18.5489
+    },
+    {
+      "tp_mult": 1.44,
+      "n_trades": 2948,
+      "total_pips": 54474.06,
+      "cal_ppd": 6.6021,
+      "win_rate": 0.5282,
+      "avg_pips_per_trade": 18.4783
+    },
+    {
+      "tp_mult": 1.46,
+      "n_trades": 2948,
+      "total_pips": 54213.7,
+      "cal_ppd": 6.5706,
+      "win_rate": 0.5231,
+      "avg_pips_per_trade": 18.39
+    },
+    {
+      "tp_mult": 1.48,
+      "n_trades": 2948,
+      "total_pips": 54293.78,
+      "cal_ppd": 6.5803,
+      "win_rate": 0.5183,
+      "avg_pips_per_trade": 18.4172
+    },
+    {
+      "tp_mult": 1.5,
+      "n_trades": 2948,
+      "total_pips": 54906.75,
+      "cal_ppd": 6.6546,
+      "win_rate": 0.5149,
+      "avg_pips_per_trade": 18.6251
+    }
+  ]
+}

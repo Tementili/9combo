@@ -1,0 +1,15 @@
+{
+  "pair": "eurusd",
+  "layer": "L3",
+  "timestamp": "2026-03-18T02:05:06.220520+00:00",
+  "code_hash": "3f22e30587174ccd3722",
+  "frozen_cfg": {
+    "window_h": 24,
+    "sl_mult": 3.5,
+    "sl_main_frac": 0.7,
+    "tp_mode": "TP_ATR_2.0",
+    "skip_frac": 0.3,
+    "sar_tp_frac": 1.0,
+    "sar_sl_frac": 0.25
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "entry_norm": 0.225,
+  "sl_norm": 0.55,
+  "tp_norm": 0.5097,
+  "scale": "BUY uses PP->S2 as 1.0; SELL uses PP->R2 as 1.0; pivot-centered TP",
+  "trading_window": "same day (entry touch to day close)",
+  "spread_pips": 1.0,
+  "days": 3939,
+  "trades": 2718,
+  "wins": 968,
+  "losses": 1750,
+  "time_exits": 548,
+  "win_rate": 0.356144,
+  "buys": 1235,
+  "sells": 1483,
+  "skipped_ambiguous_first_touch": 42,
+  "no_entry_days": 1179,
+  "total_pips": -4228.4691,
+  "cal_ppd": -1.0735,
+  "avg_pips_per_trade": -1.5557
+}

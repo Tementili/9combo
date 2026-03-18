@@ -1,0 +1,213 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "timeframe": "15m",
+  "mode": "daily_pivot_real_touch_straddle_tp_trailing",
+  "fill_rule": "open buy+sell only when daily pivot is actually touched; activate next bar",
+  "atr_source": "previous daily ATR14",
+  "spread_pips_per_leg": 1.0,
+  "sl_grid": [
+    0.08,
+    0.1,
+    0.12,
+    0.16,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "tp_grid": [
+    0.08,
+    0.1,
+    0.12,
+    0.16,
+    0.2,
+    0.24,
+    0.3,
+    0.4,
+    0.55,
+    0.7,
+    1.0
+  ],
+  "best": {
+    "sl_mult": 0.08,
+    "tp_mult": 0.2,
+    "cal_ppd": 0.293,
+    "buy_cal_ppd": 0.0756,
+    "sell_cal_ppd": 0.2175,
+    "total_pips": 856.288,
+    "initial_entries": 2032.0,
+    "no_touch_days": 884.0,
+    "legs_closed": 4064.0
+  },
+  "top15": [
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.2,
+      "cal_ppd": 0.293,
+      "buy_cal_ppd": 0.0756,
+      "sell_cal_ppd": 0.2175,
+      "total_pips": 856.288,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.24,
+      "cal_ppd": 0.2916,
+      "buy_cal_ppd": 0.0731,
+      "sell_cal_ppd": 0.2185,
+      "total_pips": 852.0528,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.3,
+      "cal_ppd": 0.2908,
+      "buy_cal_ppd": 0.0712,
+      "sell_cal_ppd": 0.2196,
+      "total_pips": 849.6289,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.4,
+      "cal_ppd": 0.2904,
+      "buy_cal_ppd": 0.0708,
+      "sell_cal_ppd": 0.2196,
+      "total_pips": 848.4059,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.7,
+      "cal_ppd": 0.2904,
+      "buy_cal_ppd": 0.0708,
+      "sell_cal_ppd": 0.2196,
+      "total_pips": 848.4059,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 1.0,
+      "cal_ppd": 0.2904,
+      "buy_cal_ppd": 0.0708,
+      "sell_cal_ppd": 0.2196,
+      "total_pips": 848.4059,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.55,
+      "cal_ppd": 0.2904,
+      "buy_cal_ppd": 0.0708,
+      "sell_cal_ppd": 0.2196,
+      "total_pips": 848.4059,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.16,
+      "cal_ppd": 0.2893,
+      "buy_cal_ppd": 0.071,
+      "sell_cal_ppd": 0.2183,
+      "total_pips": 845.4504,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.12,
+      "cal_ppd": 0.2881,
+      "buy_cal_ppd": 0.0602,
+      "sell_cal_ppd": 0.2279,
+      "total_pips": 841.8501,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.1,
+      "cal_ppd": 0.2771,
+      "buy_cal_ppd": 0.0534,
+      "sell_cal_ppd": 0.2237,
+      "total_pips": 809.5865,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.08,
+      "tp_mult": 0.08,
+      "cal_ppd": 0.2628,
+      "buy_cal_ppd": 0.044,
+      "sell_cal_ppd": 0.2188,
+      "total_pips": 767.9259,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.12,
+      "cal_ppd": -0.6969,
+      "buy_cal_ppd": -0.3911,
+      "sell_cal_ppd": -0.3058,
+      "total_pips": -2036.3983,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.1,
+      "cal_ppd": -0.6978,
+      "buy_cal_ppd": -0.3932,
+      "sell_cal_ppd": -0.3046,
+      "total_pips": -2038.9007,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.08,
+      "cal_ppd": -0.6992,
+      "buy_cal_ppd": -0.4123,
+      "sell_cal_ppd": -0.2869,
+      "total_pips": -2043.0449,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    },
+    {
+      "sl_mult": 0.1,
+      "tp_mult": 0.2,
+      "cal_ppd": -0.7059,
+      "buy_cal_ppd": -0.3862,
+      "sell_cal_ppd": -0.3197,
+      "total_pips": -2062.5843,
+      "initial_entries": 2032,
+      "no_touch_days": 884,
+      "legs_closed": 4064
+    }
+  ]
+}

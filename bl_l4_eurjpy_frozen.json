@@ -1,0 +1,128 @@
+{
+  "pair": "eurjpy",
+  "runner_version": "v1.0.0-layer4",
+  "timestamp": "2026-03-18T00:56:44.234921+00:00",
+  "code_hash": "85ed130df7400e19d248",
+  "frozen_cfg": {
+    "window_h": 8,
+    "sl_mult": 3.0,
+    "sl_main_frac": 0.3,
+    "tp_mode": "TP_ATR_1.5",
+    "skip_frac": 0.3,
+    "ao_frac": 0.7
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "n_configs": 2592,
+      "winner_cfg": {
+        "window_h": 8,
+        "sl_mult": 3.0,
+        "sl_main_frac": 0.3,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.3,
+        "ao_frac": 0.7
+      },
+      "be_off_tr_ppd": 3.8491,
+      "be_on_tr_ppd": 3.9562,
+      "be_on_adj_ppd": -0.9221,
+      "adj_delta": 9998.0779
+    },
+    {
+      "round": 2,
+      "n_configs": 720,
+      "winner_cfg": {
+        "window_h": 8,
+        "sl_mult": 3.0,
+        "sl_main_frac": 0.3,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.3,
+        "ao_frac": 0.7
+      },
+      "be_off_tr_ppd": 3.8491,
+      "be_on_tr_ppd": 3.9562,
+      "be_on_adj_ppd": -0.9221,
+      "adj_delta": 0.0
+    },
+    {
+      "round": 3,
+      "n_configs": 576,
+      "winner_cfg": {
+        "window_h": 8,
+        "sl_mult": 3.0,
+        "sl_main_frac": 0.3,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.3,
+        "ao_frac": 0.7
+      },
+      "be_off_tr_ppd": 3.8491,
+      "be_on_tr_ppd": 3.9562,
+      "be_on_adj_ppd": -0.9221,
+      "adj_delta": 0.0
+    }
+  ],
+  "be_off": {
+    "train": {
+      "cal_ppd": 3.8491,
+      "main_cal_ppd": 5.9534,
+      "addon_cal_ppd": -2.1043,
+      "win_rate": 0.3946,
+      "total_trades": 2083,
+      "n_cal_days": 2557,
+      "addon_fire_rate": 0.675,
+      "best_day": 1169.91,
+      "worst_day": -499.46,
+      "be_tp_count": 0,
+      "sl_count": 1260,
+      "tp_count": 805,
+      "time_exit_count": 18
+    },
+    "adjust": {
+      "cal_ppd": 0.5855,
+      "main_cal_ppd": 1.2526,
+      "addon_cal_ppd": -0.6671,
+      "win_rate": 0.3908,
+      "total_trades": 1305,
+      "n_cal_days": 1826,
+      "addon_fire_rate": 0.6851,
+      "best_day": 659.48,
+      "worst_day": -299.46,
+      "be_tp_count": 0,
+      "sl_count": 791,
+      "tp_count": 503,
+      "time_exit_count": 11
+    }
+  },
+  "be_on": {
+    "train": {
+      "cal_ppd": 3.9562,
+      "main_cal_ppd": 6.0605,
+      "addon_cal_ppd": -2.1043,
+      "win_rate": 0.3946,
+      "total_trades": 2083,
+      "n_cal_days": 2557,
+      "addon_fire_rate": 0.675,
+      "best_day": 752.03,
+      "worst_day": -483.09,
+      "be_tp_count": 367,
+      "sl_count": 1037,
+      "tp_count": 670,
+      "time_exit_count": 9
+    },
+    "adjust": {
+      "cal_ppd": -0.9221,
+      "main_cal_ppd": -0.255,
+      "addon_cal_ppd": -0.6671,
+      "win_rate": 0.3923,
+      "total_trades": 1305,
+      "n_cal_days": 1826,
+      "addon_fire_rate": 0.6851,
+      "best_day": 443.18,
+      "worst_day": -299.46,
+      "be_tp_count": 239,
+      "sl_count": 653,
+      "tp_count": 408,
+      "time_exit_count": 5
+    }
+  }
+}

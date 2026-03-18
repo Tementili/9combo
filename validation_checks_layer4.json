@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-03-18T02:17:36.317437+00:00",
+  "layer": "L4",
+  "checks": {
+    "eurjpy": {
+      "total_pips_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total=11651.32 sum_legs=11651.32 diff=0.0000"
+      },
+      "total_cal_ppd_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total_ppd=4.5566 sum_legs=4.5567 diff=0.000100"
+      },
+      "be_off_has_zero_be_tp": {
+        "pass": true,
+        "detail": "be_tp_count=0 be_mode=BE_OFF"
+      },
+      "be_on_has_be_tp_when_addon_fires": {
+        "pass": true,
+        "detail": "addon_n_trades=4712 be_tp_count=1269"
+      },
+      "_all_pass": true,
+      "pair": "eurjpy"
+    },
+    "eurusd": {
+      "total_pips_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total=22501.60 sum_legs=22501.60 diff=0.0000"
+      },
+      "total_cal_ppd_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total_ppd=8.8000 sum_legs=8.8000 diff=0.000000"
+      },
+      "be_off_has_zero_be_tp": {
+        "pass": true,
+        "detail": "be_tp_count=0 be_mode=BE_OFF"
+      },
+      "be_on_has_be_tp_when_addon_fires": {
+        "pass": true,
+        "detail": "addon_n_trades=2779 be_tp_count=764"
+      },
+      "_all_pass": true,
+      "pair": "eurusd"
+    },
+    "usdjpy": {
+      "total_pips_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total=14856.00 sum_legs=14856.00 diff=0.0000"
+      },
+      "total_cal_ppd_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total_ppd=5.8099 sum_legs=5.8100 diff=0.000100"
+      },
+      "be_off_has_zero_be_tp": {
+        "pass": true,
+        "detail": "be_tp_count=0 be_mode=BE_OFF"
+      },
+      "be_on_has_be_tp_when_addon_fires": {
+        "pass": true,
+        "detail": "addon_n_trades=3526 be_tp_count=1038"
+      },
+      "_all_pass": true,
+      "pair": "usdjpy"
+    }
+  }
+}

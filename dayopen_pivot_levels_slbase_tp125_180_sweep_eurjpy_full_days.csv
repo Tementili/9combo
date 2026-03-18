@@ -1,0 +1,13 @@
+tp_mult_of_base,sl_base,wins,losses,time_exits,buys,sells,skipped_equal_open_pp,win_rate_excl_time_exit,total_pips,cal_ppd
+1.75,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,760,1649,3655,2956,3430,987,0.315484,7313.2333,1.0372
+1.8,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,726,1661,3677,2956,3430,987,0.304147,7293.34,1.0344
+1.7,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,783,1644,3637,2956,3430,987,0.322621,6879.07,0.9756
+1.65,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,816,1640,3608,2956,3430,987,0.332248,6739.2417,0.9558
+1.6,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,856,1633,3575,2956,3430,987,0.343913,6514.1067,0.9239
+1.55,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,901,1630,3533,2956,3430,987,0.355986,6266.685,0.8888
+1.5,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,942,1624,3498,2956,3430,987,0.367108,5846.8167,0.8292
+1.45,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,985,1612,3467,2956,3430,987,0.379284,5449.3183,0.7728
+1.35,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,1084,1596,3384,2956,3430,987,0.404478,4794.71,0.68
+1.4,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,1026,1607,3431,2956,3430,987,0.38967,4640.6067,0.6581
+1.25,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,1190,1579,3295,2956,3430,987,0.429758,4269.8333,0.6056
+1.3,pivot_to_s2_for_buy_or_pivot_to_r1_for_sell,1129,1590,3345,2956,3430,987,0.415226,4070.79,0.5773

@@ -1,0 +1,321 @@
+{
+  "pair": "usdjpy",
+  "mode": "NO_HARD_TP_TRAILING_ONLY",
+  "split": {
+    "train": [
+      "2013-01-01",
+      "2016-12-31"
+    ],
+    "adjust": [
+      "2017-01-01",
+      "2022-12-31"
+    ],
+    "oos": [
+      "2023-01-01",
+      "2026-03-06"
+    ]
+  },
+  "configs_tested": 540,
+  "best": {
+    "cfg": {
+      "sar_trail_k": 0.1,
+      "sar_trail_act_k": 0.0,
+      "sar_sl_frac": 0.7,
+      "addon_sl_scale": 0.85,
+      "skip_frac": 0.4
+    },
+    "train_cal_ppd": 1.6004,
+    "adjust_cal_ppd": -28.5899,
+    "adjust_time_exit_rate": 0.4174,
+    "adjust_sar_fire_rate": 0.3582,
+    "adjust_addon_fire_rate": 0.6151
+  },
+  "best_oos": {
+    "oos_cal_ppd": 8.3374,
+    "oos_time_exit_rate": 0.4111,
+    "oos_sar_fire_rate": 0.3542,
+    "oos_addon_fire_rate": 0.6185
+  },
+  "top20": [
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": 1.6004,
+      "adjust_cal_ppd": -28.5899,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.05,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": 0.6135,
+      "adjust_cal_ppd": -29.5438,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.1,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": 0.6954,
+      "adjust_cal_ppd": -29.8863,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.15,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": 0.0149,
+      "adjust_cal_ppd": -30.0098,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.5,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -1.0033,
+      "adjust_cal_ppd": -30.4123,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.15,
+        "sar_trail_act_k": 0.05,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -0.8121,
+      "adjust_cal_ppd": -30.8596,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.15,
+        "sar_trail_act_k": 0.1,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -0.7005,
+      "adjust_cal_ppd": -31.1598,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 1.0,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": 3.6547,
+      "adjust_cal_ppd": -31.2605,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.35
+      },
+      "train_cal_ppd": -1.362,
+      "adjust_cal_ppd": -31.2738,
+      "adjust_time_exit_rate": 0.4082,
+      "adjust_sar_fire_rate": 0.3542,
+      "adjust_addon_fire_rate": 0.6234
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.2,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -1.3085,
+      "adjust_cal_ppd": -31.3019,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.05,
+        "sar_sl_frac": 0.5,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -1.4527,
+      "adjust_cal_ppd": -31.6137,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.15,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.5,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -2.3039,
+      "adjust_cal_ppd": -31.6589,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 1.15,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": 3.0803,
+      "adjust_cal_ppd": -31.7133,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.1,
+        "sar_sl_frac": 0.5,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -1.2846,
+      "adjust_cal_ppd": -31.7882,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.2,
+        "sar_trail_act_k": 0.05,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -1.987,
+      "adjust_cal_ppd": -31.9618,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.35,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -2.5993,
+      "adjust_cal_ppd": -32.0747,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.25
+      },
+      "train_cal_ppd": -4.9728,
+      "adjust_cal_ppd": -32.1244,
+      "adjust_time_exit_rate": 0.3943,
+      "adjust_sar_fire_rate": 0.3465,
+      "adjust_addon_fire_rate": 0.6363
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.05,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 1.0,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": 2.6678,
+      "adjust_cal_ppd": -32.2143,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.1,
+        "sar_trail_act_k": 0.05,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.35
+      },
+      "train_cal_ppd": -2.3726,
+      "adjust_cal_ppd": -32.2276,
+      "adjust_time_exit_rate": 0.4082,
+      "adjust_sar_fire_rate": 0.3542,
+      "adjust_addon_fire_rate": 0.6234
+    },
+    {
+      "cfg": {
+        "sar_trail_k": 0.25,
+        "sar_trail_act_k": 0.0,
+        "sar_sl_frac": 0.7,
+        "addon_sl_scale": 0.85,
+        "skip_frac": 0.4
+      },
+      "train_cal_ppd": -1.7095,
+      "adjust_cal_ppd": -32.2677,
+      "adjust_time_exit_rate": 0.4174,
+      "adjust_sar_fire_rate": 0.3582,
+      "adjust_addon_fire_rate": 0.6151
+    }
+  ]
+}

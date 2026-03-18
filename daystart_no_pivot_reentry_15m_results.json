@@ -1,0 +1,18 @@
+{
+  "pair": "usdjpy",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "mode": "day-start-no-pivot-reentry",
+  "sl_mult": 0.08,
+  "tp_mult": 0.55,
+  "max_hold_hours": 432,
+  "initial_entries": 2919,
+  "reentry_pairs": 1400,
+  "total_legs_closed": 8638,
+  "total_pips": -5298.4957,
+  "cal_ppd": -1.8133,
+  "buy_cal_ppd": -0.5839,
+  "sell_cal_ppd": -1.2295
+}

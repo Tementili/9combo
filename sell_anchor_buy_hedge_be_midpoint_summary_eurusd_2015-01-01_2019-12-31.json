@@ -1,0 +1,26 @@
+{
+  "pair": "EURUSD",
+  "ref_mode": "midpoint",
+  "from": "2015-01-01",
+  "to": "2019-12-31",
+  "days": 1826,
+  "traded_days": 696,
+  "trades": 1382,
+  "total_pips": 298.4,
+  "raw_pips_per_day": 0.1634,
+  "total_weighted_pips": 1340333.8222,
+  "weighted_pips_per_day": 734.0273,
+  "weighted_pips_per_day_per_100_units": 7.3403,
+  "by_leg": [
+    {
+      "leg_tag": "BUY1",
+      "pips": -6000.0,
+      "weighted_pips": 521541.82219999994
+    },
+    {
+      "leg_tag": "SELL1",
+      "pips": 6298.400000000001,
+      "weighted_pips": 818792.0
+    }
+  ]
+}

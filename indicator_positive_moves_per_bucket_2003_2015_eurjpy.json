@@ -1,0 +1,17 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "metric": "average positive pips (pips_at_first_event > 0)",
+  "min_group_trades": 30,
+  "files": {
+    "atr_bucket": "indicator_positive_moves_atr_bucket_per_bucket_2003_2015_eurjpy.csv",
+    "rsi_band": "indicator_positive_moves_rsi_band_per_bucket_2003_2015_eurjpy.csv",
+    "wr_band": "indicator_positive_moves_wr_band_per_bucket_2003_2015_eurjpy.csv",
+    "bbz_band": "indicator_positive_moves_bbz_band_per_bucket_2003_2015_eurjpy.csv",
+    "all": "indicator_positive_moves_all_per_bucket_2003_2015_eurjpy.csv",
+    "top5": "indicator_positive_moves_top5_per_bucket_2003_2015_eurjpy.csv"
+  }
+}

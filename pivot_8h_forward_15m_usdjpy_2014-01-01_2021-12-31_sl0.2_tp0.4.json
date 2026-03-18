@@ -1,0 +1,22 @@
+{
+  "pair": "USDJPY",
+  "timeframe": "15m",
+  "mode": "8h_open",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "sl_mult": 0.2,
+  "tp_mult": 0.4,
+  "entries": 8757,
+  "cal_ppd": 6.0988,
+  "buy_cal_ppd": 5.2237,
+  "sell_cal_ppd": 0.8751,
+  "total_pips": 17820.7468,
+  "exit_counts": {
+    "SL": 12720,
+    "TP": 3443,
+    "BOTH_SL": 1351,
+    "TIME_EXIT": 0
+  }
+}

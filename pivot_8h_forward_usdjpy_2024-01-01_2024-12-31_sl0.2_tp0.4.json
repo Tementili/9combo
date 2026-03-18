@@ -1,0 +1,21 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "mode": "8h_open",
+  "sl_mult": 0.2,
+  "tp_mult": 0.4,
+  "entries": 1098,
+  "cal_ppd": 34.9666,
+  "buy_cal_ppd": 26.2639,
+  "sell_cal_ppd": 8.7027,
+  "total_pips": 12797.7627,
+  "exit_counts": {
+    "SL": 1636,
+    "TP": 203,
+    "BOTH_SL": 357,
+    "TIME_EXIT": 0
+  }
+}

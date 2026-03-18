@@ -1,0 +1,149 @@
+{
+  "eurjpy": {
+    "frozen": {
+      "window_h": 8,
+      "sl_mult": 2.0,
+      "sl_main_frac": 0.3,
+      "tp_mode": "TP_ATR_1.5",
+      "skip_frac": 0.35
+    },
+    "train": {
+      "cal_ppd": 8.2794,
+      "win_rate": 0.3124,
+      "avg_pips_per_trade": 10.3981,
+      "time_exit_rate": 0.0039,
+      "total_trades": 2036,
+      "n_cal_days": 2557,
+      "best_day_pips": 752.03,
+      "worst_day_pips": -303.87
+    },
+    "adjust": {
+      "cal_ppd": 1.2513,
+      "win_rate": 0.3042,
+      "avg_pips_per_trade": 1.8005,
+      "time_exit_rate": 0.0024,
+      "total_trades": 1269,
+      "n_cal_days": 1826,
+      "best_day_pips": 443.18,
+      "worst_day_pips": -178.92
+    },
+    "oos": {
+      "pair": "eurjpy",
+      "timestamp": "2026-03-18T00:30:55.705150+00:00",
+      "code_hash": "dd1fe9f66b1f9a1621f4",
+      "frozen_cfg": {
+        "window_h": 8,
+        "sl_mult": 2.0,
+        "sl_main_frac": 0.3,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.35
+      },
+      "oos_cal_ppd": -1.8713,
+      "oos_win_rate": 0.286,
+      "oos_avg_pips": -3.0706,
+      "oos_ter": 0.0022,
+      "oos_trades": 930,
+      "oos_best_day": 594.83,
+      "oos_worst_day": -247.19,
+      "oos_n_cal": 1526
+    }
+  },
+  "eurusd": {
+    "frozen": {
+      "window_h": 24,
+      "sl_mult": 3.5,
+      "sl_main_frac": 0.7,
+      "tp_mode": "TP_ATR_1.5",
+      "skip_frac": 0.3
+    },
+    "train": {
+      "cal_ppd": 9.0787,
+      "win_rate": 0.6218,
+      "avg_pips_per_trade": 11.4922,
+      "time_exit_rate": 0.0941,
+      "total_trades": 2020,
+      "n_cal_days": 2557,
+      "best_day_pips": 737.42,
+      "worst_day_pips": -932.05
+    },
+    "adjust": {
+      "cal_ppd": 8.3941,
+      "win_rate": 0.6261,
+      "avg_pips_per_trade": 10.7713,
+      "time_exit_rate": 0.0984,
+      "total_trades": 1423,
+      "n_cal_days": 1826,
+      "best_day_pips": 407.05,
+      "worst_day_pips": -618.83
+    },
+    "oos": {
+      "pair": "eurusd",
+      "timestamp": "2026-03-18T00:31:32.049528+00:00",
+      "code_hash": "dd1fe9f66b1f9a1621f4",
+      "frozen_cfg": {
+        "window_h": 24,
+        "sl_mult": 3.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.3
+      },
+      "oos_cal_ppd": 2.8388,
+      "oos_win_rate": 0.6124,
+      "oos_avg_pips": 3.6742,
+      "oos_ter": 0.1052,
+      "oos_trades": 1179,
+      "oos_best_day": 354.16,
+      "oos_worst_day": -542.91,
+      "oos_n_cal": 1526
+    }
+  },
+  "usdjpy": {
+    "frozen": {
+      "window_h": 8,
+      "sl_mult": 2.5,
+      "sl_main_frac": 0.7,
+      "tp_mode": "TP_ATR_2.0",
+      "skip_frac": 0.4
+    },
+    "train": {
+      "cal_ppd": 4.6853,
+      "win_rate": 0.4881,
+      "avg_pips_per_trade": 5.9368,
+      "time_exit_rate": 0.1006,
+      "total_trades": 2018,
+      "n_cal_days": 2557,
+      "best_day_pips": 585.53,
+      "worst_day_pips": -516.57
+    },
+    "adjust": {
+      "cal_ppd": -2.7678,
+      "win_rate": 0.4689,
+      "avg_pips_per_trade": -3.5368,
+      "time_exit_rate": 0.1064,
+      "total_trades": 1429,
+      "n_cal_days": 1826,
+      "best_day_pips": 680.87,
+      "worst_day_pips": -554.41
+    },
+    "oos": {
+      "pair": "usdjpy",
+      "timestamp": "2026-03-18T00:32:08.710242+00:00",
+      "code_hash": "dd1fe9f66b1f9a1621f4",
+      "frozen_cfg": {
+        "window_h": 8,
+        "sl_mult": 2.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_2.0",
+        "skip_frac": 0.4
+      },
+      "oos_cal_ppd": -6.5028,
+      "oos_win_rate": 0.4485,
+      "oos_avg_pips": -8.5251,
+      "oos_ter": 0.073,
+      "oos_trades": 1164,
+      "oos_best_day": 756.1,
+      "oos_worst_day": -657.23,
+      "oos_n_cal": 1526
+    }
+  }
+}

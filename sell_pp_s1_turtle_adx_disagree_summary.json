@@ -1,0 +1,38 @@
+{
+  "both_up": {
+    "mask": "both_up",
+    "n_trades": 260,
+    "total_pips": 6607.02,
+    "cal_ppd": 0.8167,
+    "wins": 159,
+    "losses": 101,
+    "win_rate": 0.6115
+  },
+  "both_down": {
+    "mask": "both_down",
+    "n_trades": 317,
+    "total_pips": 9438.09,
+    "cal_ppd": 1.1552,
+    "wins": 197,
+    "losses": 120,
+    "win_rate": 0.6215
+  },
+  "turtle_up_di_down": {
+    "mask": "turtle_up_di_down",
+    "n_trades": 146,
+    "total_pips": 3605.4,
+    "cal_ppd": 0.4428,
+    "wins": 89,
+    "losses": 57,
+    "win_rate": 0.6096
+  },
+  "turtle_down_di_up": {
+    "mask": "turtle_down_di_up",
+    "n_trades": 73,
+    "total_pips": 79.07,
+    "cal_ppd": 0.0104,
+    "wins": 36,
+    "losses": 37,
+    "win_rate": 0.4932
+  }
+}

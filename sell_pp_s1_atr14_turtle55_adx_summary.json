@@ -1,0 +1,22 @@
+{
+  "both_up": {
+    "mode": "both_up",
+    "n_trades": 260,
+    "total_pips": 6607.02,
+    "cal_ppd": 0.8167,
+    "wins": 159,
+    "losses": 101,
+    "win_rate": 0.6115,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\sell_pp_s1_atr14_turtle55_both_up_ledger.csv"
+  },
+  "both_down": {
+    "mode": "both_down",
+    "n_trades": 317,
+    "total_pips": 9438.09,
+    "cal_ppd": 1.1552,
+    "wins": 197,
+    "losses": 120,
+    "win_rate": 0.6215,
+    "ledger": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\baseline_discovery_v1\\sell_pp_s1_atr14_turtle55_both_down_ledger.csv"
+  }
+}

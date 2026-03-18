@@ -1,0 +1,83 @@
+[
+  {
+    "pair": "EURJPY",
+    "ref_mode": "midpoint",
+    "from": "2015-01-01",
+    "to": "2019-12-31",
+    "days": 1826,
+    "min_room_to_yh_pips": 21.0,
+    "traded_days": 352,
+    "trades": 704,
+    "total_pips": 2432.0,
+    "raw_pips_per_day": 1.3319,
+    "total_weighted_pips": 363716.0,
+    "weighted_pips_per_day": 199.1873,
+    "weighted_pips_per_day_per_100_units": 1.9919,
+    "by_leg": [
+      {
+        "leg_tag": "BUY1",
+        "pips": -1585.2,
+        "weighted_pips": -158520.0
+      },
+      {
+        "leg_tag": "SELL1",
+        "pips": 4017.2,
+        "weighted_pips": 522236.0
+      }
+    ]
+  },
+  {
+    "pair": "EURUSD",
+    "ref_mode": "midpoint",
+    "from": "2015-01-01",
+    "to": "2019-12-31",
+    "days": 1826,
+    "min_room_to_yh_pips": 21.0,
+    "traded_days": 266,
+    "trades": 532,
+    "total_pips": 5754.9,
+    "raw_pips_per_day": 3.1516,
+    "total_weighted_pips": 716925.0,
+    "weighted_pips_per_day": 392.6205,
+    "weighted_pips_per_day_per_100_units": 3.9262,
+    "by_leg": [
+      {
+        "leg_tag": "BUY1",
+        "pips": 1040.4,
+        "weighted_pips": 104040.0
+      },
+      {
+        "leg_tag": "SELL1",
+        "pips": 4714.5,
+        "weighted_pips": 612885.0
+      }
+    ]
+  },
+  {
+    "pair": "USDJPY",
+    "ref_mode": "midpoint",
+    "from": "2015-01-01",
+    "to": "2019-12-31",
+    "days": 1826,
+    "min_room_to_yh_pips": 21.0,
+    "traded_days": 232,
+    "trades": 464,
+    "total_pips": 1876.9,
+    "raw_pips_per_day": 1.0279,
+    "total_weighted_pips": 235213.0,
+    "weighted_pips_per_day": 128.8133,
+    "weighted_pips_per_day_per_100_units": 1.2881,
+    "by_leg": [
+      {
+        "leg_tag": "BUY1",
+        "pips": 292.79999999999995,
+        "weighted_pips": 29280.0
+      },
+      {
+        "leg_tag": "SELL1",
+        "pips": 1584.1,
+        "weighted_pips": 205933.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "entry_norm_touch": 0.225,
+  "scale_definition": "pivot=0; touch entry starts at -entry_norm; values <0 mean pivot not reached",
+  "triggers": 2718,
+  "buy_triggers": 1235,
+  "sell_triggers": 1483,
+  "pivot_reach_rate_all": 0.7428,
+  "pivot_reach_rate_buy": 0.7514,
+  "pivot_reach_rate_sell": 0.7357,
+  "best_toward_pivot_coord_all": {
+    "mean": 0.5097,
+    "q10": -0.115,
+    "q25": -0.0046,
+    "q50": 0.2317,
+    "q75": 0.6862,
+    "q90": 1.4071
+  },
+  "best_toward_pivot_coord_buy": {
+    "mean": 0.5179,
+    "q10": -0.1108,
+    "q25": 0.0004,
+    "q50": 0.2436,
+    "q75": 0.6762,
+    "q90": 1.3876
+  },
+  "best_toward_pivot_coord_sell": {
+    "mean": 0.5029,
+    "q10": -0.1186,
+    "q25": -0.0113,
+    "q50": 0.2232,
+    "q75": 0.6911,
+    "q90": 1.451
+  }
+}

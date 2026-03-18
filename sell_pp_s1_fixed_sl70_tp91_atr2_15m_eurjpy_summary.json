@@ -1,0 +1,173 @@
+{
+  "pair": "EURJPY",
+  "strategy": "SELL at PP when price drops to PP-S1 zone, 15m bars (ATR2 sizing)",
+  "sl_rule": "fixed 0.7*ATR2 ABOVE entry",
+  "tp_rule": "fixed 0.7*1.3*ATR2 BELOW entry (=0.910*ATR2)",
+  "cost_pips": 1.0,
+  "period": [
+    "2003-08-06",
+    "2026-03-06"
+  ],
+  "cal_days": 8249,
+  "n_trades": 5950,
+  "wins": 2895,
+  "losses": 3055,
+  "win_rate": 0.4866,
+  "total_pips": 45566.03,
+  "cal_ppd": 5.5238,
+  "avg_pips_per_trade": 7.6582,
+  "avg_win_pips": 83.7312,
+  "avg_loss_pips": -64.4307,
+  "avg_hold_hours": 41.87,
+  "exit_counts": {
+    "TP": 2895,
+    "SL": 3052,
+    "DATASET_END": 3
+  },
+  "yearly": {
+    "2003": {
+      "trades": 125,
+      "total_pips": 1017.94,
+      "cal_ppd": 6.9248,
+      "win_rate": 0.472
+    },
+    "2004": {
+      "trades": 306,
+      "total_pips": 3870.72,
+      "cal_ppd": 10.5757,
+      "win_rate": 0.4967
+    },
+    "2005": {
+      "trades": 308,
+      "total_pips": 706.65,
+      "cal_ppd": 1.9413,
+      "win_rate": 0.461
+    },
+    "2006": {
+      "trades": 308,
+      "total_pips": -1424.91,
+      "cal_ppd": -3.9039,
+      "win_rate": 0.3929
+    },
+    "2007": {
+      "trades": 102,
+      "total_pips": -217.03,
+      "cal_ppd": -1.2996,
+      "win_rate": 0.451
+    },
+    "2008": {
+      "trades": 5,
+      "total_pips": 483.6,
+      "cal_ppd": 60.4499,
+      "win_rate": 0.6
+    },
+    "2009": {
+      "trades": 301,
+      "total_pips": 5157.22,
+      "cal_ppd": 14.1682,
+      "win_rate": 0.505
+    },
+    "2010": {
+      "trades": 316,
+      "total_pips": 7595.78,
+      "cal_ppd": 20.8675,
+      "win_rate": 0.5728
+    },
+    "2011": {
+      "trades": 319,
+      "total_pips": 4730.65,
+      "cal_ppd": 12.9607,
+      "win_rate": 0.5329
+    },
+    "2012": {
+      "trades": 298,
+      "total_pips": 3618.46,
+      "cal_ppd": 9.8865,
+      "win_rate": 0.547
+    },
+    "2013": {
+      "trades": 308,
+      "total_pips": -654.11,
+      "cal_ppd": -1.797,
+      "win_rate": 0.4221
+    },
+    "2014": {
+      "trades": 308,
+      "total_pips": 3686.8,
+      "cal_ppd": 10.1008,
+      "win_rate": 0.539
+    },
+    "2015": {
+      "trades": 321,
+      "total_pips": 6146.87,
+      "cal_ppd": 16.8407,
+      "win_rate": 0.5389
+    },
+    "2016": {
+      "trades": 318,
+      "total_pips": 2005.05,
+      "cal_ppd": 5.4783,
+      "win_rate": 0.4937
+    },
+    "2017": {
+      "trades": 302,
+      "total_pips": 1136.61,
+      "cal_ppd": 3.114,
+      "win_rate": 0.4801
+    },
+    "2018": {
+      "trades": 311,
+      "total_pips": 3364.84,
+      "cal_ppd": 9.2188,
+      "win_rate": 0.5016
+    },
+    "2019": {
+      "trades": 313,
+      "total_pips": 2201.21,
+      "cal_ppd": 6.0307,
+      "win_rate": 0.5048
+    },
+    "2020": {
+      "trades": 317,
+      "total_pips": 989.46,
+      "cal_ppd": 2.7034,
+      "win_rate": 0.4574
+    },
+    "2021": {
+      "trades": 94,
+      "total_pips": -663.16,
+      "cal_ppd": -4.7369,
+      "win_rate": 0.4149
+    },
+    "2022": {
+      "trades": 9,
+      "total_pips": 93.18,
+      "cal_ppd": 9.3179,
+      "win_rate": 0.6667
+    },
+    "2023": {
+      "trades": 306,
+      "total_pips": -836.91,
+      "cal_ppd": -2.2992,
+      "win_rate": 0.4412
+    },
+    "2024": {
+      "trades": 305,
+      "total_pips": 1740.93,
+      "cal_ppd": 4.7566,
+      "win_rate": 0.4525
+    },
+    "2025": {
+      "trades": 295,
+      "total_pips": 1186.69,
+      "cal_ppd": 3.2512,
+      "win_rate": 0.4576
+    },
+    "2026": {
+      "trades": 55,
+      "total_pips": -370.5,
+      "cal_ppd": -5.7891,
+      "win_rate": 0.4182
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pair": "EURJPY",
+  "from": "2015-01-01",
+  "to": "2019-12-31",
+  "third_leg_enabled": false,
+  "trades": 3122,
+  "days": 1826,
+  "total_pips": 4.9,
+  "total_weighted_pips": -35888.0,
+  "raw_pips_per_day": 0.0027,
+  "weighted_pips_per_day": -19.6539,
+  "weighted_pips_per_day_per_100_units": -0.1965,
+  "best_trade_weighted": 41483.0,
+  "worst_trade_weighted": -70577.0,
+  "by_leg": [
+    {
+      "leg_tag": "BUY1",
+      "pips": -4511.4,
+      "weighted_pips": -566253.0
+    },
+    {
+      "leg_tag": "SELL1",
+      "pips": 4516.3,
+      "weighted_pips": 530365.0
+    }
+  ],
+  "by_reason": [
+    {
+      "reason": "BOTH_SL",
+      "weighted_pips": -75117.0
+    },
+    {
+      "reason": "SL",
+      "weighted_pips": -7458976.0
+    },
+    {
+      "reason": "TIME_EXIT",
+      "weighted_pips": -1131901.0
+    },
+    {
+      "reason": "TP",
+      "weighted_pips": 8630106.0
+    }
+  ]
+}

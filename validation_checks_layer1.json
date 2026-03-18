@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-03-18T01:53:06.067868+00:00",
+  "layer": "L1",
+  "checks": {
+    "eurjpy": {
+      "total_pips_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total=19776.38 sum_legs=19776.38 diff=0.0000"
+      },
+      "total_cal_ppd_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total_ppd=7.7342 sum_legs=7.7342 diff=0.000000"
+      },
+      "be_off_has_zero_be_tp": {
+        "pass": true,
+        "detail": "be_tp_count=0 be_mode=N/A"
+      },
+      "_all_pass": true,
+      "pair": "eurjpy"
+    },
+    "eurusd": {
+      "total_pips_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total=25169.33 sum_legs=25169.33 diff=0.0000"
+      },
+      "total_cal_ppd_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total_ppd=9.8433 sum_legs=9.8433 diff=0.000000"
+      },
+      "be_off_has_zero_be_tp": {
+        "pass": true,
+        "detail": "be_tp_count=0 be_mode=N/A"
+      },
+      "_all_pass": true,
+      "pair": "eurusd"
+    },
+    "usdjpy": {
+      "total_pips_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total=23484.81 sum_legs=23484.81 diff=0.0000"
+      },
+      "total_cal_ppd_equals_sum_of_legs": {
+        "pass": true,
+        "detail": "total_ppd=9.1845 sum_legs=9.1845 diff=0.000000"
+      },
+      "be_off_has_zero_be_tp": {
+        "pass": true,
+        "detail": "be_tp_count=0 be_mode=N/A"
+      },
+      "_all_pass": true,
+      "pair": "usdjpy"
+    }
+  }
+}

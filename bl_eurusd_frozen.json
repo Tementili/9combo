@@ -1,0 +1,86 @@
+{
+  "pair": "eurusd",
+  "runner_version": "v1.0.0-bl-step1",
+  "timestamp": "2026-03-18T00:31:31.973415+00:00",
+  "code_hash": "dd1fe9f66b1f9a1621f4",
+  "frozen_cfg": {
+    "window_h": 24,
+    "sl_mult": 3.5,
+    "sl_main_frac": 0.7,
+    "tp_mode": "TP_ATR_1.5",
+    "skip_frac": 0.3
+  },
+  "train": {
+    "cal_ppd": 9.0787,
+    "win_rate": 0.6218,
+    "avg_pips_per_trade": 11.4922,
+    "time_exit_rate": 0.0941,
+    "total_trades": 2020,
+    "n_cal_days": 2557,
+    "best_day_pips": 737.42,
+    "worst_day_pips": -932.05
+  },
+  "adjust": {
+    "cal_ppd": 8.3941,
+    "win_rate": 0.6261,
+    "avg_pips_per_trade": 10.7713,
+    "time_exit_rate": 0.0984,
+    "total_trades": 1423,
+    "n_cal_days": 1826,
+    "best_day_pips": 407.05,
+    "worst_day_pips": -618.83
+  },
+  "round_history": [
+    {
+      "round": 1,
+      "n_configs": 864,
+      "winner_cfg": {
+        "window_h": 24,
+        "sl_mult": 3.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.3
+      },
+      "train_ppd": 9.0787,
+      "adj_ppd": 8.3941,
+      "adj_delta": 1007.3941
+    },
+    {
+      "round": 2,
+      "n_configs": 192,
+      "winner_cfg": {
+        "window_h": 24,
+        "sl_mult": 3.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.3
+      },
+      "train_ppd": 9.0787,
+      "adj_ppd": 8.3941,
+      "adj_delta": 0.0
+    },
+    {
+      "round": 3,
+      "n_configs": 144,
+      "winner_cfg": {
+        "window_h": 24,
+        "sl_mult": 3.5,
+        "sl_main_frac": 0.7,
+        "tp_mode": "TP_ATR_1.5",
+        "skip_frac": 0.3
+      },
+      "train_ppd": 9.0787,
+      "adj_ppd": 8.3941,
+      "adj_delta": 0.0
+    }
+  ],
+  "split": {
+    "train_start": "2010-01-01",
+    "train_end": "2016-12-31",
+    "adjust_start": "2017-01-01",
+    "adjust_end": "2021-12-31",
+    "oos_start": "2022-01-01",
+    "oos_end": "2026-03-06",
+    "max_hold_hours": 432
+  }
+}

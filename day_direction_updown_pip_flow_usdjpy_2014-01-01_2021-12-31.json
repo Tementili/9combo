@@ -1,0 +1,122 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "timeframe": "15m",
+  "definition": "For each day, sum all positive and all negative close-to-close pip moves from day open. Group by day close vs day open direction.",
+  "up_days_summary": {
+    "days": 1317,
+    "sum_up_pips": 197774.9,
+    "sum_down_pips": 152681.4,
+    "avg_up_pips_per_day": 150.1708,
+    "avg_down_pips_per_day": 115.9312,
+    "avg_net_pips_per_day": 34.2396,
+    "up_down_ratio": 1.295344
+  },
+  "down_days_summary": {
+    "days": 1180,
+    "sum_up_pips": 159697.9,
+    "sum_down_pips": 203685.9,
+    "avg_up_pips_per_day": 135.3372,
+    "avg_down_pips_per_day": 172.6152,
+    "avg_net_pips_per_day": -37.278,
+    "up_down_ratio": 0.78404
+  },
+  "flat_days_summary": {
+    "days": 422,
+    "sum_up_pips": 162.9,
+    "sum_down_pips": 162.9,
+    "avg_up_pips_per_day": 0.386,
+    "avg_down_pips_per_day": 0.386,
+    "avg_net_pips_per_day": 0.0,
+    "up_down_ratio": 1.0
+  },
+  "examples": {
+    "up_days_first5": [
+      {
+        "date": "2014-01-01",
+        "open": 105.259,
+        "close": 105.331,
+        "net_pips": 7.2,
+        "up_pips": 17.1,
+        "down_pips": 9.9
+      },
+      {
+        "date": "2014-01-03",
+        "open": 104.841,
+        "close": 104.846,
+        "net_pips": 0.5,
+        "up_pips": 200.9,
+        "down_pips": 200.4
+      },
+      {
+        "date": "2014-01-05",
+        "open": 104.846,
+        "close": 104.911,
+        "net_pips": 6.5,
+        "up_pips": 9.5,
+        "down_pips": 3.0
+      },
+      {
+        "date": "2014-01-07",
+        "open": 104.223,
+        "close": 104.715,
+        "net_pips": 49.2,
+        "up_pips": 200.3,
+        "down_pips": 151.1
+      },
+      {
+        "date": "2014-01-08",
+        "open": 104.713,
+        "close": 104.839,
+        "net_pips": 12.6,
+        "up_pips": 180.5,
+        "down_pips": 167.9
+      }
+    ],
+    "down_days_first5": [
+      {
+        "date": "2014-01-02",
+        "open": 105.331,
+        "close": 104.841,
+        "net_pips": -49.0,
+        "up_pips": 103.8,
+        "down_pips": 152.8
+      },
+      {
+        "date": "2014-01-06",
+        "open": 104.911,
+        "close": 104.223,
+        "net_pips": -68.8,
+        "up_pips": 185.5,
+        "down_pips": 254.3
+      },
+      {
+        "date": "2014-01-09",
+        "open": 104.84,
+        "close": 104.832,
+        "net_pips": -0.8,
+        "up_pips": 132.0,
+        "down_pips": 132.8
+      },
+      {
+        "date": "2014-01-10",
+        "open": 104.832,
+        "close": 104.162,
+        "net_pips": -67.0,
+        "up_pips": 113.7,
+        "down_pips": 180.7
+      },
+      {
+        "date": "2014-01-12",
+        "open": 104.162,
+        "close": 103.939,
+        "net_pips": -22.3,
+        "up_pips": 8.1,
+        "down_pips": 30.4
+      }
+    ]
+  }
+}

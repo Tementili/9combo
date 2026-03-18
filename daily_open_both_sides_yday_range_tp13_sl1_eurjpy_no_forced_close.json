@@ -1,0 +1,23 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-08-05",
+    "2026-03-06"
+  ],
+  "rule": "At each day open open BUY+SELL; TP=1.3*yesterday_range; SL=1.0*yesterday_range",
+  "forced_close": "none",
+  "spread_pips": 1.0,
+  "days": 6040,
+  "buy_opened": 6040,
+  "sell_opened": 6040,
+  "buy_wins": 2669,
+  "buy_losses": 3366,
+  "sell_wins": 2591,
+  "sell_losses": 3443,
+  "open_positions_at_end": 11,
+  "realized_buy_cal_ppd": 1.5335,
+  "realized_sell_cal_ppd": -3.4515,
+  "realized_cal_ppd": -1.918,
+  "realized_total_pips": -11584.44,
+  "unrealized_pips_at_last_close": 240.1
+}

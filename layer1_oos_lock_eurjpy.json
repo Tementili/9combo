@@ -1,0 +1,13 @@
+{
+  "pair": "eurjpy",
+  "layer": "L1",
+  "timestamp": "2026-03-18T01:51:51.520859+00:00",
+  "code_hash": "3f22e30587174ccd3722",
+  "frozen_cfg": {
+    "window_h": 24,
+    "sl_mult": 1.5,
+    "sl_main_frac": 0.3,
+    "tp_mode": "TP_ATR_2.0",
+    "skip_frac": 0.3
+  }
+}

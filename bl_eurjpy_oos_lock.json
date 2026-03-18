@@ -1,0 +1,20 @@
+{
+  "pair": "eurjpy",
+  "timestamp": "2026-03-18T00:30:55.705150+00:00",
+  "code_hash": "dd1fe9f66b1f9a1621f4",
+  "frozen_cfg": {
+    "window_h": 8,
+    "sl_mult": 2.0,
+    "sl_main_frac": 0.3,
+    "tp_mode": "TP_ATR_1.5",
+    "skip_frac": 0.35
+  },
+  "oos_cal_ppd": -1.8713,
+  "oos_win_rate": 0.286,
+  "oos_avg_pips": -3.0706,
+  "oos_ter": 0.0022,
+  "oos_trades": 930,
+  "oos_best_day": 594.83,
+  "oos_worst_day": -247.19,
+  "oos_n_cal": 1526
+}

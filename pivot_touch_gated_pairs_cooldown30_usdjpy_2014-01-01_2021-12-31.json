@@ -1,0 +1,30 @@
+{
+  "pair": "USDJPY",
+  "period": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "timeframe": "15m",
+  "mode": "daily_pivot_touch_gated_pairs_cooldown",
+  "entry_anchor": "daily PP=(YH+YL+YC)/3 from previous day",
+  "gate_rule": "new pair only after latest pair has >=1 TP on initial legs OR both initial legs lost",
+  "entry_cooldown_minutes": 30,
+  "sl_mult": 0.08,
+  "tp_mult": 0.55,
+  "max_hold_hours": 432,
+  "pivot_touches": 43971,
+  "opened_pairs": 10734,
+  "qualified_pairs": 10733,
+  "blocked_by_cooldown": 4502,
+  "total_legs_closed": 21468,
+  "cal_ppd": -10.4116,
+  "buy_cal_ppd": -3.9672,
+  "sell_cal_ppd": -6.4444,
+  "total_pips": -30422.6527,
+  "exit_counts": {
+    "SL": 21284,
+    "TP": 0,
+    "BOTH_SL": 182,
+    "TIME_EXIT": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "buckets_used": [
+    "00-05%",
+    "05-10%",
+    "10-15%",
+    "15-20%",
+    "20-25%",
+    "25-30%",
+    "30-35%"
+  ],
+  "sl_norm": 0.55,
+  "min_group_trades": 30,
+  "indicators_count": 30,
+  "files": {
+    "all_groups": "bucket_0_35_indicator30_roi_rr_scan_2003_2015_eurjpy_all.csv",
+    "best_per_bucket": "bucket_0_35_indicator30_roi_rr_scan_2003_2015_eurjpy_best_per_bucket.csv",
+    "indicator_summary": "bucket_0_35_indicator30_roi_rr_scan_2003_2015_eurjpy_indicator_summary.csv"
+  }
+}

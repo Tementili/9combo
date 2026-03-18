@@ -1,0 +1,154 @@
+{
+  "runner_version": "legacy-phasef-eurjpy-2013-2026-v1",
+  "pair": "usdjpy",
+  "no_hard_tp": true,
+  "split": {
+    "train_start": "2013-01-01",
+    "train_end": "2016-12-31",
+    "adjust_start": "2017-01-01",
+    "adjust_end": "2022-12-31",
+    "oos_start": "2023-01-01",
+    "oos_end": "2026-03-06"
+  },
+  "workers": 10,
+  "stop_reason": "delta_lt_0.1_x2_consec_after_r5",
+  "parent": {
+    "train_cal_ppd": -19.0251,
+    "adjust_cal_ppd": -20.1795,
+    "cfg": {
+      "anchor_sl_scale": 1.740235,
+      "addon_ao_frac": 1.15,
+      "addon_tp_mode": "ATR020",
+      "addon_sl_scale": 1.0,
+      "skip_frac": 0.25,
+      "sar_trail_k": 0.2,
+      "sar_tp_frac": 0.7,
+      "sar_sl_frac": 0.5,
+      "main_tp_mode": "TP_EDGE",
+      "sar_tp_removed": true,
+      "sar_trail_mode": "ratchet_only",
+      "sar_trail_unit": "ATR",
+      "sar_trail_act_k": 0.0,
+      "window_hours": 8,
+      "lane": "T"
+    }
+  },
+  "winner": {
+    "anchor_sl_scale": 1.740235,
+    "addon_ao_frac": 1.059375,
+    "addon_tp_mode": "ATR020",
+    "addon_sl_scale": 0.996875,
+    "skip_frac": 0.4,
+    "sar_trail_k": 0.1,
+    "sar_tp_frac": 0.7,
+    "sar_sl_frac": 0.5,
+    "main_tp_mode": "TP_EDGE",
+    "sar_tp_removed": true,
+    "sar_trail_mode": "ratchet_only",
+    "sar_trail_unit": "ATR",
+    "sar_trail_act_k": 0.0,
+    "window_hours": 8,
+    "lane": "T",
+    "round": 8,
+    "pair": "usdjpy",
+    "config_id": "F08_F:08|ao=1.059375|tp=ATR020|sf=",
+    "threshold": "F:08|ao=1.059375|tp=ATR020|sf=0.40|tk=0.100000|asl=0.996875",
+    "_priority": 1,
+    "_dist": 0.03125000000000044
+  },
+  "winner_adjust": -15.6331,
+  "winner_train": -8.1366,
+  "freeze_gate": {
+    "pass": true,
+    "checks": {
+      "adj_vs_parent": true,
+      "excess_drift_ok": true,
+      "ter_ok": true,
+      "afr_ok": true
+    },
+    "excess_drift": 0.0
+  },
+  "oos": {
+    "frozen_cal_ppd": 5.766,
+    "c0_cal_ppd": 1.6528,
+    "cbl_cal_ppd": -30.1671,
+    "delta_vs_c0": 4.1132,
+    "delta_vs_cbl": 35.9331,
+    "gate_pass": true
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "n_cfgs": 24,
+      "winner_threshold": "F:01|ao=1.050000|tp=ATR020|sf=0.25|tk=0.200000|asl=1.000000",
+      "winner_train": -14.6103,
+      "winner_adjust": -21.318,
+      "delta_train": null
+    },
+    {
+      "round": 2,
+      "n_cfgs": 18,
+      "winner_threshold": "F:02|ao=1.050000|tp=ATR020|sf=0.25|tk=0.150000|asl=1.000000",
+      "winner_train": -13.803,
+      "winner_adjust": -20.5069,
+      "delta_train": 0.8073
+    },
+    {
+      "round": 3,
+      "n_cfgs": 16,
+      "winner_threshold": "F:03|ao=1.050000|tp=ATR020|sf=0.30|tk=0.100000|asl=1.000000",
+      "winner_train": -11.8503,
+      "winner_adjust": -18.8047,
+      "delta_train": 1.9527
+    },
+    {
+      "round": 4,
+      "n_cfgs": 16,
+      "winner_threshold": "F:04|ao=1.062500|tp=ATR020|sf=0.35|tk=0.100000|asl=1.000000",
+      "winner_train": -10.1456,
+      "winner_adjust": -17.1828,
+      "delta_train": 1.7047
+    },
+    {
+      "round": 5,
+      "n_cfgs": 16,
+      "winner_threshold": "F:05|ao=1.056250|tp=ATR020|sf=0.40|tk=0.100000|asl=1.000000",
+      "winner_train": -8.2701,
+      "winner_adjust": -15.545,
+      "delta_train": 1.8755
+    },
+    {
+      "round": 6,
+      "n_cfgs": 16,
+      "winner_threshold": "F:06|ao=1.059375|tp=ATR020|sf=0.40|tk=0.100000|asl=1.000000",
+      "winner_train": -8.1602,
+      "winner_adjust": -15.6625,
+      "delta_train": 0.1099
+    },
+    {
+      "round": 7,
+      "n_cfgs": 16,
+      "winner_threshold": "F:07|ao=1.059375|tp=ATR020|sf=0.40|tk=0.100000|asl=1.000000",
+      "winner_train": -8.1602,
+      "winner_adjust": -15.6625,
+      "delta_train": 0.0
+    },
+    {
+      "round": 8,
+      "n_cfgs": 16,
+      "winner_threshold": "F:08|ao=1.059375|tp=ATR020|sf=0.40|tk=0.100000|asl=0.996875",
+      "winner_train": -8.1366,
+      "winner_adjust": -15.6331,
+      "delta_train": 0.0236
+    }
+  ],
+  "gap_info": {
+    "gap_policy_mode": "allowlist_hard_fail",
+    "gap_allowlist_file_used": "C:\\Users\\temen\\5 joulu\\TrailingStopLoss pivot peak trading 6 march 2026\\ATR 14 only mode\\part 4\\part 4 - For ATR 14 mode use\\usdjpy\\gap_allowlist_usdjpy.json",
+    "n_hourly_gaps_gt72h": 1,
+    "n_gap_allowlisted": 1,
+    "n_gap_hardfail": 0
+  },
+  "code_fingerprint": "9a0c8d47452a875782511055",
+  "timestamp": "2026-03-18T03:17:19.330798+00:00"
+}

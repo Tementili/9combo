@@ -1,0 +1,4 @@
+pair,buy_tp_above_yh_pips,sell_tp_after_buytp_below_yh_pips,sell_sl_above_yh_pips,shared_selltp_buysl_offset_from_yl_pips,traded_days,total_pips,raw_pips_per_day,total_weighted_pips,weighted_pips_per_day_per_100_units
+EURJPY,10,15,300,-20,836,7413.1,4.0597,1021669.0,5.5951
+EURUSD,30,30,400,-20,796,9414.5,5.1558,1243199.0,6.8083
+USDJPY,20,5,300,-20,822,5490.2,3.0067,720770.0,3.9473

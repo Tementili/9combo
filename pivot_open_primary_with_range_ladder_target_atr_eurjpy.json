@@ -1,0 +1,15 @@
+{
+  "pair": "EURJPY",
+  "rule": "Open BUY under pivot / SELL above pivot at day open; ladder opposite side every 1x yesterday range; ladder TP at +1x range; close basket when realized+floating >= average ATR pips",
+  "forced_close": "none",
+  "avg_daily_atr_target_pips": 95.3044,
+  "days": 7052,
+  "campaigns_started": 36,
+  "campaigns_closed_on_target": 35,
+  "primary_tp_hits": 32,
+  "ladder_trades_opened": 177,
+  "realized_total_pips": 6333.7,
+  "realized_cal_ppd": 0.8981,
+  "open_positions_at_end": 1,
+  "unrealized_pips_at_last_close": -7235.7
+}

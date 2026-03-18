@@ -1,0 +1,48 @@
+{
+  "pair": "EURJPY",
+  "full_days": 7052,
+  "nonflat_days": 6019,
+  "dominance_ratio_definition": "up day: up_pips/down_pips; down day: down_pips/up_pips",
+  "overall": {
+    "mean": 19554744.810685,
+    "median": 1.253128,
+    "std": 889070710.09224,
+    "p10": 1.042183,
+    "p25": 1.10879,
+    "p50": 1.253128,
+    "p75": 1.487464,
+    "p90": 1.839714
+  },
+  "by_move_bucket": [
+    {
+      "bucket": "0-0.5ATR",
+      "count": 3281,
+      "mean_ratio": 25144774.323251,
+      "median_ratio": 1.119142
+    },
+    {
+      "bucket": "0.5-1.0ATR",
+      "count": 1616,
+      "mean_ratio": 21782179.805816,
+      "median_ratio": 1.302081
+    },
+    {
+      "bucket": "1.0-1.5ATR",
+      "count": 721,
+      "mean_ratio": 1.603798,
+      "median_ratio": 1.509395
+    },
+    {
+      "bucket": "1.5-2.0ATR",
+      "count": 268,
+      "mean_ratio": 1.767543,
+      "median_ratio": 1.693214
+    },
+    {
+      "bucket": "2.0+ATR",
+      "count": 133,
+      "mean_ratio": 1.990144,
+      "median_ratio": 1.892989
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pair": "EURJPY",
+  "period": [
+    "2003-01-01",
+    "2015-12-31"
+  ],
+  "entry_band_norm": [
+    0.225,
+    0.5
+  ],
+  "sl_norm": 0.55,
+  "tp_norm": 0.5097,
+  "rule": "enter when price in 22.5%-50% away-from-pivot band; no day-end close; SL/TP hard from entry-day pivot geometry",
+  "days": 3939,
+  "entries": 2989,
+  "buys": 1350,
+  "sells": 1639,
+  "wins": 878,
+  "losses": 2111,
+  "dataset_end_exits": 0,
+  "win_rate": 0.293744,
+  "no_entry_days": 950,
+  "skipped_ambiguous_touch": 22,
+  "entry_open_in_band": 1133,
+  "entry_touch_in_band": 1856,
+  "total_pips": -1860.1985,
+  "cal_ppd": -0.4723,
+  "avg_pips_per_trade": -0.6223
+}
